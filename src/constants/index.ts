@@ -13,26 +13,10 @@ import {
   send,
   shield,
   star,
+  rspca,
 } from "../assets";
 
-export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
-];
+export const navLinks = [];
 
 export const features = [
   {
