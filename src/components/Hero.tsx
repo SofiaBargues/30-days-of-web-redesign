@@ -4,48 +4,26 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section
+    <div
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: "url(/banner.jpg)",
+      }}
     >
-      <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-      >
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Mallydams
-            <br className="sm:block hidden" />{" "}
-          </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div>
+      <div className="hero-overlay bg-opacity-80"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <p className="mb-5">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+          <button className="btn btn-primary">Get Started</button>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Wood
-        </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Animal neglect and abandonment are at a three-year high. We must come
-          together for the animals who need us. <br></br>Will you help us?
-        </p>
       </div>
-
-      <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
-      >
-        <img src={banner} alt="billing" className="w-full" />
-
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-        {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
-      </div>
-    </section>
+    </div>
   );
 };
 

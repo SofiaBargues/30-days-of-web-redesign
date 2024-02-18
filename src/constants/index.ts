@@ -16,7 +16,20 @@ import {
   rspca,
 } from "../assets";
 
-export const navLinks = [];
+export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "hours",
+    title: "Hours",
+  },
+  {
+    id: "events",
+    title: "Events",
+  },
+];
 
 export const features = [
   {
