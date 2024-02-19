@@ -12,11 +12,11 @@ const Hero = () => {
         backgroundImage: "url(/banner.jpg)",
       }}
     >
-      <div className="hero-overlay bg-opacity-80"></div>
-      <div className="hero-content text-center text-neutral-content">
+      <div className="hero-overlay bg-opacity-80 "></div>
+      <div className="hero-content text-center text-neutral-content h-full">
         {/* hasta aca fueron cosas de daisy */}
-        <div>
-          <div className="p-20">
+        <div className="flex justify-between flex-col h-full py-20 ">
+          <div className="p-20 max-w-md fleitems-center	">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
@@ -25,9 +25,7 @@ const Hero = () => {
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
-          <div>
-            <Stats />
-          </div>
+          <Stats />
         </div>
       </div>
     </div>
