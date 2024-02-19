@@ -2,6 +2,7 @@ import styles from "../style";
 import { banner } from "../assets";
 import GetStarted from "./GetStarted";
 import { Stats } from ".";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -12,18 +13,17 @@ const Hero = () => {
         backgroundImage: "url(/banner.jpg)",
       }}
     >
-      <div className="hero-overlay bg-opacity-80 "></div>
+      <div className="hero-overlay bg-opacity-70 "></div>
       <div className="hero-content text-center text-neutral-content h-full">
         {/* hasta aca fueron cosas de daisy */}
         <div className="flex justify-between items-center	 flex-col h-full py-20	">
-          <div className="p-20 max-w-lg ">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <div className="p-20 max-w-2xl ">
+            <h1 className="mb-5 text-7xl font-bold">Mallydams Wood</h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Animal neglect and abandonment are at a three-year high. We must
+              come together for the animals who need us. Will you help us?
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <Button styles={`mt-10`} />
           </div>
           <Stats />
         </div>

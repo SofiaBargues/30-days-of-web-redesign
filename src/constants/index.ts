@@ -14,6 +14,7 @@ import {
   shield,
   star,
   rspca,
+  lk,
 } from "../assets";
 
 export const navLinks = [
@@ -82,18 +83,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Wildlife rehabilitation",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Volunteers",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Care for animals",
+    value: "230M+",
   },
 ];
 
@@ -167,22 +168,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/rspca_official",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/RSPCAMallydamsWood",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/RSPCA_official",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: lk,
+    link: "https://youtu.be/PkyLdSEHVDs",
   },
 ];
 

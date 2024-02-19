@@ -30,8 +30,10 @@ import a from "./a.jpg";
 import b from "./b.jpg";
 import c from "./c.jpg";
 import sponsorship from "./sponsorship.jpg";
+import lk from "./lk.png";
 
 export {
+  lk,
   sponsorship,
   a,
   b,
