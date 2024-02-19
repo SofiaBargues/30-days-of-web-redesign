@@ -25,8 +25,18 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import banner from "./banner.jpg";
 import rspca from "./rspca.png";
+import photo2 from "./photo2.jpeg";
+import a from "./a.jpg";
+import b from "./b.jpg";
+import c from "./c.jpg";
+import sponsorship from "./sponsorship.jpg";
 
 export {
+  sponsorship,
+  a,
+  b,
+  c,
+  photo2,
   rspca,
   banner,
   airbnb,

@@ -1,6 +1,7 @@
 import styles from "../style";
 import { banner } from "../assets";
 import GetStarted from "./GetStarted";
+import { Stats } from ".";
 
 const Hero = () => {
   return (
@@ -13,14 +14,20 @@ const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-80"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
+        {/* hasta aca fueron cosas de daisy */}
+        <div>
+          <div className="p-20">
+            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <p className="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
+          </div>
+          <div>
+            <Stats />
+          </div>
         </div>
       </div>
     </div>
