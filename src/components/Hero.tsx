@@ -17,11 +17,12 @@ const Hero = () => {
       <div className="hero-content text-center text-neutral-content h-full">
         {/* hasta aca fueron cosas de daisy */}
         <div className="flex justify-between items-center	flex-col h-full py-20	">
-          <div className="p-20 max-w-2xl ">
+          <div className="p-20 max-w-3xl ">
             <h1 className="mb-5 text-8xl font-bold">Mallydams Wood</h1>
-            <p className="mb-5">
+            <p className="mb-5 text-xl ">
               Animal neglect and abandonment are at a three-year high. We must
-              come together for the animals who need us. Will you help us?
+              come together for the animals who need us.<br></br> Will you help
+              us?
             </p>
             <Button styles={`mt-10`} />
           </div>

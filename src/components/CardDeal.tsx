@@ -9,7 +9,7 @@ const CardDeal = () => (
         Visiting
         <br className="sm:block hidden" /> Mallydams Wood
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px]  mt-5`}>
         Access to our 55 acre woodland nature reserve is only allowed at one of
         our organised events.
       </p>
