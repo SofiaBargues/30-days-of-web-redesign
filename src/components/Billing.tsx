@@ -7,7 +7,7 @@ const Billing = () => (
       <img
         src={sponsorship}
         alt="billing"
-        className=" rounded-2xl relative w-[100%] h-[100%] z-[5]"
+        className=" rounded-2xl relative  z-[5]"
       />
 
       {/* gradient start */}
