@@ -15,8 +15,8 @@ const Hero = () => {
       <div className="hero-overlay bg-opacity-80 "></div>
       <div className="hero-content text-center text-neutral-content h-full">
         {/* hasta aca fueron cosas de daisy */}
-        <div className="flex justify-between flex-col h-full py-20 ">
-          <div className="p-20 max-w-md fleitems-center	">
+        <div className="flex justify-between items-center	 flex-col h-full py-20	">
+          <div className="p-20 max-w-lg ">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
