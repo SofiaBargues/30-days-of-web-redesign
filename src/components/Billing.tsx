@@ -3,26 +3,30 @@ import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="features" className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://lh3.googleusercontent.com/p/AF1QipPu_FVwbJIC5dR84h4sHJgSa4_DStIte0d68Qak=s680-w680-h510"
-            alt="Shoes"
-            className="rounded-xl"
-          />
-        </figure>
+    <div className="w-96 ">
+      <div className="h-96 carousel carousel-vertical rounded-box">
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" />
+        </div>
+        <div className="carousel-item h-full">
+          <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" />
+        </div>
       </div>
-    </div>
-
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Opening Times.</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        The Club is open on Monday, Tuesday and Wednesday evenings, and Saturday
-        morning/Sunday afternoon on a alternating weekly basis.   New members
-        must attend a compulsory Safe to Shoot training course on Monday
-        evenings before graduating to shoot at other times.
-      </p>
     </div>
   </section>
 );

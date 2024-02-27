@@ -28,9 +28,8 @@ function App() {
 
         <div className={`bg-slate-800 ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            <Billing />
+            {/* <Billing /> */}
             <CardDeal />
-            {/* <Clients /> */}
             <Testimonials />
             <CTA />
             <Footer />

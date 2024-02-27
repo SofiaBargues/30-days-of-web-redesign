@@ -1,9 +1,13 @@
+import { Billing } from ".";
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
+    <div className={layout.sectionImg}>
+      <Billing />
+    </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Membership <br className="sm:block hidden" /> Application
@@ -14,10 +18,6 @@ const CardDeal = () => (
       </p>
 
       <button className="btn btn-lg btn-primary my-20">Apply</button>
-    </div>
-
-    <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
