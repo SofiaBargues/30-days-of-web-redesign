@@ -2,20 +2,52 @@ import styles from "../style";
 import Button from "./Button";
 
 const CTA = () => (
-  <section
-    id="Join us"
-    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
-  >
-    <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Let’s try our service now!</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Everything you need to accept card payments and grow your business
-        anywhere on the planet.
-      </p>
-    </div>
-
-    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <button className="btn btn-lg btn-primary">Get Started</button>
+  <section id="Join us">
+    <div className="hero m bg-base-200">
+      <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="text-center lg:text-left">
+          <h1 className="text-5xl font-bold">Login now!</h1>
+          <p className="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+        </div>
+        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <form className="card-body">
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Email</span>
+              </label>
+              <input
+                type="email"
+                placeholder="email"
+                className="input input-bordered"
+                required
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Password</span>
+              </label>
+              <input
+                type="password"
+                placeholder="password"
+                className="input input-bordered"
+                required
+              />
+              <label className="label">
+                <a href="#" className="label-text-alt link link-hover">
+                  Forgot password?
+                </a>
+              </label>
+            </div>
+            <div className="form-control mt-6">
+              <button className="btn btn-primary">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 );
