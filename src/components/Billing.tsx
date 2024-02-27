@@ -16,13 +16,12 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
-      </h2>
+      <h2 className={styles.heading2}>Opening Times.</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+        The Club is open on Monday, Tuesday and Wednesday evenings, and Saturday
+        morning/Sunday afternoon on a alternating weekly basis.   New members
+        must attend a compulsory Safe to Shoot training course on Monday
+        evenings before graduating to shoot at other times.
       </p>
     </div>
   </section>

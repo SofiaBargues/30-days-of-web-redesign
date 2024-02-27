@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="w-full flex py-0 justify-between items-center navbar">
       <img src={logo} alt="hoobank" />
       <p
-        className={`font-poppins cursor-pointer text-[36px] text-dimWhite font-regular`}
+        className={`font-poppins mx-6 cursor-pointer text-[36px] text-dimWhite font-regular`}
       >
         Addiscombe Rifle Club
       </p>
@@ -21,13 +21,13 @@ const Navbar = () => {
             key={nav.id}
             className={`group font-poppins cursor-pointer text-[16px] ${
               active === nav.title
-                ? "text-secondary font-semibold"
+                ? "text-white font-semibold"
                 : "text-dimWhite font-regular"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
-            <div class="h-0.5 bg-secondary scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out" />
+            <div className="h-0.5 bg-white scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out" />
           </li>
         ))}
       </ul>

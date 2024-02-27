@@ -6,7 +6,6 @@ import {
   Billing,
   CardDeal,
   Testimonials,
-  Clients,
   CTA,
   Footer,
 } from "./components";
@@ -23,17 +22,15 @@ function App() {
         </div>
       </div>
       <div className="bg-primary w-full overflow-hidden">
-        <div className={`bg-slate-800 ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Hero />
-          </div>
+        <div className={`bg-slate-800 }`}>
+          <Hero />
         </div>
 
         <div className={`bg-slate-800 ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Billing />
             <CardDeal />
-            <Clients />
+            {/* <Clients /> */}
             <Testimonials />
             <CTA />
             <Footer />

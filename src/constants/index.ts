@@ -24,13 +24,14 @@ export const navLinks = [
     id: "features",
     title: "Features",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
+
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "Join us",
+    title: "Join us",
   },
 ];
 
@@ -40,7 +41,7 @@ export const features = [
     icon: star,
     title: "Rewards Change",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Great club . Friendly staff and members . 100yds 50yds 25yds 10yds  shooting ranges . Air rifle , air pistol and small bore .22lr .22lsr.",
   },
   {
     id: "feature-2",
@@ -61,22 +62,25 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content: "Change.",
-    name: "Herman Jensen",
+    content:
+      "Great club . Friendly staff and members . 100yds 50yds 25yds 10yds  shooting ranges . Air rifle , air pistol and small bore .22lr .22lsr.",
+    name: "Rolandas Latvys",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
-    content: "Change.",
-    name: "Steve Mark",
+    content:
+      "Joined this club few months ago,  really enjoying shooting in a safe  environment.",
+    name: "Skalliwag",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
-    content: "Change.",
-    name: "Kenn Gallagher",
+    content:
+      "Very professional and welcoming staff. If you want to learn the basis of firearms and live nearby, there no better place.",
+    name: "Bosza",
     title: "Founder & Leader",
     img: people03,
   },

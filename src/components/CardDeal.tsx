@@ -6,15 +6,14 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Membership <br className="sm:block hidden" /> Application
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Applications for membership are still welcome, but are subject to a wait
+        of several months. ​
       </p>
 
-      <Button styles={`mt-10`} />
+      <button className="btn btn-lg btn-primary my-20">Apply</button>
     </div>
 
     <div className={layout.sectionImg}>
