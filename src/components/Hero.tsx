@@ -17,7 +17,6 @@ const Hero = () => {
           <div
             className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
           >
-            <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"></div>
             <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
               Payment Method.
             </h1>
