@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div
-        className={`${styles.paddingX} ${styles.flexCenter} bg-blue-950 w-full overflow-hidden sticky top-0 z-[9]`}
+        className={`${styles.paddingX} ${styles.flexCenter} sm:px-0 px-0 bg-blue-950 w-full sticky top-0 z-[9]`}
       >
         <div className={`${styles.boxWidth}`}>
           <Navbar />
