@@ -13,6 +13,13 @@ import {
   send,
   shield,
   star,
+  a1,
+  a2,
+  a3,
+  a4,
+  a5,
+  a6,
+  a0,
 } from "../assets";
 
 export const navLinks = [
@@ -192,7 +199,7 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-2",
-    logo: binance,
+    logo: a1,
   },
   { id: "client-1", logo: airbnb },
   {
