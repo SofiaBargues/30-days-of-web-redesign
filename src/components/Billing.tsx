@@ -3,27 +3,21 @@ import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="features" className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://lh3.googleusercontent.com/p/AF1QipPu_FVwbJIC5dR84h4sHJgSa4_DStIte0d68Qak=s680-w680-h510"
-            alt="Shoes"
-            className="rounded-xl"
-          />
-        </figure>
+    <div className="diff aspect-[16/9]">
+      <div className="diff-item-1">
+        <img
+          alt="daisy"
+          src="https://daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.jpg"
+        />
       </div>
-    </div>
-
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
-      </p>
+      <div className="diff-item-2">
+        <img
+          alt="daisy"
+          src="https://daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.jpg"
+          style={{ filter: "blur(5px)" }}
+        />
+      </div>
+      <div className="diff-resizer"></div>
     </div>
   </section>
 );
