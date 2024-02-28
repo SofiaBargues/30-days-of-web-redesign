@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}py-0 `}
+      className={`flex md:flex-row flex-col ${styles.paddingY}py-0 sm:py-0 `}
     >
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
