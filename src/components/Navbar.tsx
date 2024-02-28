@@ -9,7 +9,7 @@ const Navbar = () => {
           <li>
             <details>
               <summary>Menu</summary>
-              <ul className="p-2 bg-base-100 rounded-t-none">
+              <ul className="p-0 bg-base-100 rounded-t-none">
                 <li>
                   <a>Eye Tests</a>
                 </li>
