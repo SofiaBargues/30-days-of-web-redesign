@@ -8,6 +8,7 @@ import {
   CTA,
   Footer,
 } from "./components";
+import Hours from "./components/Hours";
 import styles from "./style";
 
 function App() {
@@ -25,9 +26,10 @@ function App() {
           <Hero />
         </div>
 
-        <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
+        <div className={`bg-black  ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} py-20`}>
             <CardDeal />
+            {/* <Hours /> */}
             <Testimonials />
             <CTA />
             <Footer />

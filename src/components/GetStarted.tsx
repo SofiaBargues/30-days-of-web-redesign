@@ -32,7 +32,7 @@ const GetStarted = () => (
         of several months. ​
       </p>
 
-      <button className="btn btn-lg btn-primary my-20">Apply</button>
+      <button className="btn btn-lg  btn-accent my-20">Apply</button>
     </div>
   </div>
 );

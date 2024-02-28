@@ -13,8 +13,8 @@ import {
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="features" className={layout.sectionReverse}>
-    <div className="w-96  ">
+  <section className={`flex md:flex-row flex-col-reverse`}>
+    <div className="w-full h-96">
       <div className="h-96 carousel carousel-vertical rounded-box">
         <div className="carousel-item h-full w-full">
           <img src={a71} alt="hoobank" />

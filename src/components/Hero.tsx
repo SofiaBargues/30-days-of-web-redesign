@@ -24,7 +24,7 @@ const Hero = () => {
               If you have a food allergy or intolerance phone the restaurant on
               02030920953.
             </p>
-            <button className="btn btn-lg btn-primary">Order</button>
+            <button className="btn btn-lg  btn-accent">Order</button>
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
+import { Testimonials } from ".";
 import { quotes } from "../assets";
 
 const Hours = ({ content, name, title, img }) => (
-  <div className="overflow-x-auto">
+  <div className="overflow-x-auto h-screen ">
+    <Testimonials />
     <table className="table">
       {/* head */}
       <thead>
