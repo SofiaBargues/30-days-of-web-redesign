@@ -1,6 +1,8 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import FeedbackCard from "./FeedbackCard";
+import { feedback } from "../constants";
 
 const Hero = () => {
   return (
@@ -10,10 +12,11 @@ const Hero = () => {
     >
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://lh3.googleusercontent.com/p/AF1QipOcuBplyGHg7Y3acI3ipv5MXqpAbBlL4Jl8ZkwK=s680-w680-h510"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />{" "}
+          <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+            {feedback.map((card) => (
+              <FeedbackCard key={card.id} {...card} />
+            ))}
+          </div>
           <div
             className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
           >
