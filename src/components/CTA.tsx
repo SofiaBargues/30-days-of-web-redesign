@@ -2,7 +2,7 @@ import styles from "../style";
 import Button from "./Button";
 
 const CTA = () => (
-  <section id="Login" className="hero my-40">
+  <section id="Login" className="hero my-80">
     <div className="hero m ">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
