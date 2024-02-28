@@ -1,6 +1,6 @@
 import { quotes } from "../assets";
 
-const FeedbackCard = ({ content, name, title, img }) => (
+const Hours = ({ content, name, title, img }) => (
   <div className="overflow-x-auto">
     <table className="table">
       {/* head */}
@@ -58,4 +58,4 @@ const FeedbackCard = ({ content, name, title, img }) => (
   </div>
 );
 
-export default FeedbackCard;
+export default Hours;

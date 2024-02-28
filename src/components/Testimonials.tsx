@@ -1,6 +1,6 @@
 import { feedback } from "../constants";
 import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+import Hours from "./Hours";
 
 const Testimonials = () => (
   <section
@@ -10,7 +10,7 @@ const Testimonials = () => (
     <div />
     <h2 className={styles.heading2}>Opening Hours</h2>
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      <FeedbackCard />
+      <Hours />
     </div>
   </section>
 );

@@ -1,7 +1,6 @@
 import {
   Navbar,
   Hero,
-  Stats,
   Business,
   Billing,
   CardDeal,
