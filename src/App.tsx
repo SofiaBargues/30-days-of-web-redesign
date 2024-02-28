@@ -22,13 +22,12 @@ function App() {
         </div>
       </div>
       <div className="bg-primary w-full overflow-hidden">
-        <div className={`bg-slate-800 }`}>
+        <div className={`bg-slate-800`}>
           <Hero />
         </div>
 
-        <div className={`bg-slate-800 ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            {/* <Billing /> */}
             <CardDeal />
             <Testimonials />
             <CTA />

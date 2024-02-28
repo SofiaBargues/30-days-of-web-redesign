@@ -23,8 +23,22 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import a71 from "./a71.png";
+import a72 from "./a72.png";
+import a73 from "./a73.png";
+import a74 from "./a74.png";
+import a75 from "./a75.png";
+import a76 from "./a76.png";
+import a77 from "./a77.png";
 
 export {
+  a71,
+  a72,
+  a73,
+  a74,
+  a75,
+  a76,
+  a77,
   airbnb,
   bill,
   binance,

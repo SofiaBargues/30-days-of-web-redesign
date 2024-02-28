@@ -1,30 +1,38 @@
-import { apple, bill, google } from "../assets";
+import {
+  apple,
+  a71,
+  a72,
+  a73,
+  a74,
+  a75,
+  a76,
+  a77,
+  bill,
+  google,
+} from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="features" className={layout.sectionReverse}>
-    <div className="w-96 ">
+    <div className="w-96  ">
       <div className="h-96 carousel carousel-vertical rounded-box">
-        <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" />
+        <div className="carousel-item h-full w-full">
+          <img src={a71} alt="hoobank" />
         </div>
         <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" />
+          <img src={a71} alt="hoobank" />
         </div>
         <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" />
+          <img src={a77} alt="hoobank" />
         </div>
         <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" />
+          <img src={a71} alt="hoobank" />
         </div>
         <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" />
+          <img src={a77} alt="hoobank" />
         </div>
         <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" />
-        </div>
-        <div className="carousel-item h-full">
-          <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" />
+          <img src={a77} alt="hoobank" />
         </div>
       </div>
     </div>
