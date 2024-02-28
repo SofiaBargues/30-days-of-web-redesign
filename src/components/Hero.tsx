@@ -13,16 +13,18 @@ const Hero = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
-              Order now and enjoy free delivery!
+        <div className="text-center text-neutral-content my-10">
+          <div className="max-w-2xl h-full">
+            <h1 className="my-20 text-5xl font-semibold">
+              Order now and enjoy
+              <br />
+              <span className="mb-5 text-8xl font-bold"> free delivery</span>
             </h1>
-            <p className="mb-5">
+            <p className="mb-5 text-2xl font-bold">
               If you have a food allergy or intolerance phone the restaurant on
               02030920953.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-lg btn-primary">Order</button>
           </div>
         </div>
       </div>
