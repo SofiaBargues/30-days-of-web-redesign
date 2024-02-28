@@ -1,9 +1,10 @@
-import { apple, bill, google } from "../assets";
-import styles, { layout } from "../style";
-
 const Billing = () => (
-  <section id="features" className={layout.sectionReverse}>
-    <div className="diff aspect-[16/9]">
+  <section
+    id="features"
+    className="w-screen 
+"
+  >
+    <div className="diff aspect-[16/9]  h-28">
       <div className="diff-item-1">
         <img
           alt="daisy"
