@@ -15,10 +15,8 @@ import styles from "./style";
 function App() {
   return (
     <>
-      <div
-        className={`${styles.paddingX} ${styles.flexCenter} sm:px-0 px-0 bg-blue-950 w-full sticky top-0 z-[9]`}
-      >
-        <div className={`${styles.boxWidth}`}>
+      <div>
+        <div>
           <Navbar />
         </div>
       </div>
