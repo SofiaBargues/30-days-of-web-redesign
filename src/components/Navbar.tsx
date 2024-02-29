@@ -22,14 +22,14 @@ const Navbar = () => {
               <details>
                 <summary>Menu</summary>
                 <ul className="p-2 bg-base-100 rounded-t-none">
-                  <li id="Gym Play">
-                    <a>Gym Play</a>
+                  <li>
+                    <a href="#GymPlay">Gym Play</a>
                   </li>
-                  <li id="Happyjacks Gallery">
-                    <a>Happyjacks Gallery</a>
+                  <li>
+                    <a href="#HappyjacksGallery">Happyjacks Gallery</a>
                   </li>
-                  <li id="About">
-                    <a>Contact Us</a>
+                  <li>
+                    <a href="#AboutUs">About Us</a>
                   </li>
                 </ul>
               </details>
