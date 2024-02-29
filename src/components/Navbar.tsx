@@ -2,14 +2,14 @@ const Navbar = () => {
   return (
     <div className="navbar w-full bg-accent">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">A.K. Bennett</a>
+        <a className="btn btn-ghost text-2xl">A.K. Bennett</a>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal text-2xl px-10">
           <li>
             <details>
               <summary>Menu</summary>
-              <ul className="p-0 bg-base-100 rounded-t-none">
+              <ul className="text-2xl px-10- bg-base-100 rounded-t-none">
                 <li>
                   <a>Eye Tests</a>
                 </li>

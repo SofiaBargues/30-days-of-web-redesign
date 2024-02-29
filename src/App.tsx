@@ -20,8 +20,8 @@ function App() {
           <Navbar />
         </div>
       </div>
-      <div className="bg-primary w-full overflow-hidden">
-        <div className={`bg-slate-800 ${styles.flexStart}`}>
+      <div className="bg-">
+        <div className={` ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>

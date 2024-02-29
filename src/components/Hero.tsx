@@ -31,15 +31,17 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero bg-base-200">
-            <div className="hero-content text-center">
-              <div className="max-w-md">
-                <h1 className="text-6xl font-bold">Hello there</h1>
-                <p className="py-6 text-xl ">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
+            <div className="hero-content  text-center py-24">
+              <div className="max-w-md ">
+                <h1 className="text-6xl font-bold py-5">A.K. Bennett</h1>
+                <p className="py-6 text-xl py-3 ">
+                  Welcome, where crystal-clear vision meets unparalleled style.
+                  We're not just about correcting vision; we're about enhancing
+                  your unique perspective on the world. With a commitment to
+                  quality, innovation, and personalized care, we're your go-to
+                  destination for all things optical.
                 </p>
-                <button className="btn btn-accent">Accent</button>
+                <button className=" btn btn-lg btn-accent">Appointments</button>
               </div>
             </div>
           </div>

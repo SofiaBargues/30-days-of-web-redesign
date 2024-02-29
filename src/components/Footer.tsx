@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section>
-    <footer className="footer p-10 bg-accent text-neutral-content">
+    <footer className="footer p-10 bg-accent text-slate-600">
       <aside>
         <svg
           width="50"
