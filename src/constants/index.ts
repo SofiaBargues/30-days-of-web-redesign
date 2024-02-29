@@ -71,21 +71,28 @@ export const feedback = [
     content: "Change.",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: people01,
+    img: a0,
   },
   {
     id: "feedback-2",
     content: "Change.",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: people02,
+    img: a2,
   },
   {
     id: "feedback-3",
     content: "Change.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: people03,
+    img: a3,
+  },
+  {
+    id: "feedback-4",
+    content: "Change.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: a1,
   },
 ];
 

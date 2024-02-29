@@ -27,12 +27,13 @@ function App() {
           </div>
         </div>
 
-        <div className={`bg-slate-800 ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={``}>
           <div className={`${styles.boxWidth}`}>
             <Billing />
-            <CardDeal />
-            {/* <Clients /> */}
             <Testimonials />
+            {/* <CardDeal /> */}
+            {/* <Business /> */}
+            {/* <Clients /> */}
             {/* <CTA /> */}
             <Footer />
           </div>

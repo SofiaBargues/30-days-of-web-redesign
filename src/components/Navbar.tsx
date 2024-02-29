@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar w-full bg-base-100">
+    <div className="navbar w-full bg-accent">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">A.K. Bennett</a>
       </div>
