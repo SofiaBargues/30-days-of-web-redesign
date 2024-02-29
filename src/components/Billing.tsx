@@ -4,7 +4,7 @@ const Billing = () => (
     className="w-screen 
 "
   >
-    <div className="diff aspect-[16/9]  h-52">
+    <div className="diff aspect-[16/9]  h-96">
       <div className="diff-item-1">
         <img
           alt="daisy"
