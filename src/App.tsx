@@ -10,6 +10,7 @@ import {
   CTA,
   Footer,
 } from "./components";
+import CssGrid from "./components/CssGrid";
 import styles from "./style";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Stats />
+            <CssGrid />
             <Business />
             <Billing />
             <CardDeal />
