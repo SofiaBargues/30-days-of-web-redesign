@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Business from "./Business";
 import Stats from "./Stats";
 import Billing from "./Billing";
-import CardDeal from "./CardDeal";
+import About from "./About";
 import Testimonials from "./Testimonials";
 import Clients from "./Clients";
 import CTA from "./CTA";
@@ -15,7 +15,7 @@ export {
   Business,
   Stats,
   Billing,
-  CardDeal,
+  About,
   Testimonials,
   Clients,
   CTA,
