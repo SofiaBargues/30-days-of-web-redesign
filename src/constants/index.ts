@@ -7,12 +7,6 @@ import {
   linkedin,
   twitter,
   airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
 } from "../assets";
 
 export const navLinks = [
