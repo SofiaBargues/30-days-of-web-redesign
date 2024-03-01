@@ -15,13 +15,15 @@ const Hero = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <h1 className="mb-5 text-5xl font-bold">
+              Treat Your Little Monkeys!
+            </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Proffesional soft play for under 5's in east Sussex & <br></br>
+              gymnastics based play sessions for under 5's in Eastbourne and
+              Surronding areas.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Contact Us</button>
           </div>
         </div>
       </div>
