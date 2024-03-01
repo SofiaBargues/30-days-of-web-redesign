@@ -4,21 +4,14 @@ function App() {
   return (
     <>
       <div>
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
       </div>
       <div>
         <div>
-          <div>
-            <Hero />
-          </div>
+          <Hero />
         </div>
-
         <div>
-          <div>
-            <Footer />
-          </div>
+          <Footer />
         </div>
       </div>
     </>
