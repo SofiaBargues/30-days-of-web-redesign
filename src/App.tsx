@@ -1,5 +1,4 @@
 import { Navbar, Hero, Footer } from "./components";
-import styles from "./style";
 
 function App() {
   return (
