@@ -4,11 +4,13 @@ import { navLinks } from "../constants/data";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100">
+      <div className="navbar-start"></div>
+      <div className="navbar-center">
         <a className="btn btn-ghost text-xl">daisyUI</a>
       </div>
-    </nav>
+      <div className="navbar-end"></div>
+    </div>
   );
 };
 
