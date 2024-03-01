@@ -1,5 +1,5 @@
 // import { logo } from "../assets";
-// import { footerLinks } from "../constants";
+import { navLinks } from "../constants/data";
 
 const Footer = () => (
   <section>

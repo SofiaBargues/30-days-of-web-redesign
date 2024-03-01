@@ -1,19 +1,16 @@
-import { Navbar, Hero, Footer } from "./components";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
-      <div>
-        <div>
-          <Hero />
-        </div>
-        <div>
-          <Footer />
-        </div>
-      </div>
+      <Navbar />
+      <main>
+        <Hero />
+        {/* Others */}
+      </main>
+      <Footer />
     </>
   );
 }
