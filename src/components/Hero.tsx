@@ -2,7 +2,7 @@ import { discount, molino } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative flex-1 h-full flex flex-col">
+    <section id="home" className="relative  flex-1 min-h-screen flex flex-col">
       <div
         className="hero h-full flex-1"
         style={{

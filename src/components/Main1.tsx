@@ -2,8 +2,8 @@ import { discount, molino } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className="">
-      <div className="hero min-h-screen bg-base-300">
+    <section id="home" className="h-full">
+      <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://jillwindmill.org.uk/images/cm1.jpg"
