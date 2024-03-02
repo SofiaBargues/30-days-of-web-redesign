@@ -4,14 +4,14 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col h-full">
       <Navbar />
-      <main>
+      <main className="flex-1 flex flex-col">
         <Hero />
         {/* Others */}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

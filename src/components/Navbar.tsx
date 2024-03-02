@@ -4,7 +4,7 @@ import { navLinks } from "../constants/data";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex py-1 justify-between items-center navbar  relative z-50">
+    <nav className="w-full flex py-1 justify-between items-center navbar  relative z-50 flex-0">
       <div className="navbar bg-base-100">
         <div className="drawer">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
