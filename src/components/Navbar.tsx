@@ -9,7 +9,7 @@ const Navbar = () => {
         Jack and Jill Windmills
       </a>
       <div className="dropdown dropdown-end">
-        <div tabIndex={0} role="button" className="btn m-1">
+        <div tabIndex={0} role="button" className="btn m-1 btn-secondary">
           Menu
         </div>
         <ul

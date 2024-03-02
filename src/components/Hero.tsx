@@ -23,7 +23,7 @@ const Hero = () => {
               Park.
             </p>
             <button
-              className="btn mb-20 btn-lg btn-primary"
+              className="btn mb-20 btn-lg btn-accent"
               onClick={() => document.getElementById("my_modal_3").showModal()}
             >
               Visit Us
