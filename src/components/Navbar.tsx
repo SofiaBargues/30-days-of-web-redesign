@@ -10,115 +10,37 @@ const Navbar = () => {
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             {/* Page content here */}
-            <label
-              htmlFor="my-drawer"
-              className="btn btn-primary btn btn-square btn-ghost drawer-button"
-            >
+            <label className="btn btn-circle swap swap-rotate">
+              {/* this hidden checkbox controls the state */}
+              <input type="checkbox" />
+
+              {/* hamburger icon */}
               <svg
+                className="swap-off fill-current"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="inline-block w-5 h-5 stroke-current"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
+                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+              </svg>
+
+              {/* close icon */}
+              <svg
+                className="swap-on fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
               </svg>
             </label>
           </div>
-          <div className="drawer-side">
-            <label
-              htmlFor="my-drawer"
-              aria-label="close sidebar"
-              className="drawer-overlay"
-            ></label>
-            <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-              <div className="join join-vertical w-full">
-                <div className="collapse collapse-arrow join-item border border-base-300">
-                  <input type="radio" name="my-accordion-4" defaultChecked />
-                  <div className="collapse-title text-xl font-medium">
-                    Chattri History
-                  </div>
-                  <div className="collapse-content">
-                    <li>
-                      <a>Brief History</a>
-                    </li>
-                    <li>
-                      <a>In Depth History</a>
-                    </li>
-                    <li>
-                      <a>Exhibition</a>
-                    </li>
-                  </div>
-                </div>
-                <div className="collapse collapse-arrow join-item border border-base-300">
-                  <input type="radio" name="my-accordion-4" />
-                  <div className="collapse-title text-xl font-medium">
-                    Memorial Service & Events
-                  </div>
-                  <div className="collapse-content">
-                    <li>
-                      <a>Service</a>
-                    </li>
-                    <li>
-                      <a>Getting Here</a>
-                    </li>
-                    <li>
-                      <a>Other Events</a>
-                    </li>
-                    <li>
-                      <a>Royal Visit 2014</a>
-                    </li>
-                  </div>
-                </div>
-                <div className="collapse collapse-arrow join-item border border-base-300">
-                  <input type="radio" name="my-accordion-4" />
-                  <div className="collapse-title text-xl font-medium">
-                    Photo Galleries
-                  </div>
-                  <div className="collapse-content">
-                    <li>
-                      <a>Service 2008</a>
-                    </li>
-                    <li>
-                      <a>Service 2012</a>
-                    </li>
-                    <li>
-                      <a>Service 2014</a>
-                    </li>
-                    <li>
-                      <a>Royal Visit 2014</a>
-                    </li>
-                  </div>
-                </div>
-                <div className="collapse collapse-arrow join-item border border-base-300">
-                  <input type="radio" name="my-accordion-4" />
-                  <div className="collapse-title text-xl font-medium">
-                    Videos
-                  </div>
-                  <div className="collapse-content">
-                    <li>
-                      <a>Charttri Videos</a>
-                    </li>
-                  </div>
-                </div>
-                <div className="collapse collapse-arrow join-item border border-base-300">
-                  <input type="radio" name="my-accordion-4" />
-                  <div className="collapse-title text-xl font-medium">Shop</div>
-                  <div className="collapse-content">
-                    <li>
-                      <a>Memorablia</a>
-                    </li>
-                  </div>
-                </div>
-              </div>
-            </ul>
-          </div>
         </div>
-        <a className="btn btn-ghost text-2xl">Chattri</a>
+        <a className="btn btn-ghost text-2xl text-slate-600 ">
+          Jack and Jill Windmills
+        </a>
       </div>
     </nav>
   );
