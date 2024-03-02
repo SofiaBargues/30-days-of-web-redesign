@@ -6,7 +6,7 @@ const Hero = () => {
       <div
         className="hero h-full flex-1"
         style={{
-          backgroundImage: `url(${molino})`,
+          backgroundImage: `url(https://jillwindmill.org.uk/images/julie.jpg)`,
         }}
       >
         <div className="hero-overlay bg-opacity-60 absolute top-0 left-0 right-0 bottom-0"></div>
