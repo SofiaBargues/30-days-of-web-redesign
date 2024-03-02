@@ -4,43 +4,36 @@ import { navLinks } from "../constants/data";
 
 const SubNavbar = () => {
   return (
-    <div className=" bg-white join flex w-full mx-0 px-10 my-0 py-0 h-16">
+    <div className="flex justify-center items-center py-6 bg-white text-white h-full">
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="1"
-        checked
+        type="checkbox"
+        aria-label="Home"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="2"
+        type="checkbox"
+        aria-label="The Fishing Quarter"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="3"
+        type="checkbox"
+        aria-label="The Brigthon Fishing Museum"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="4"
+        type="checkbox"
+        aria-label="Event & Exibit Space"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="3"
+        type="checkbox"
+        aria-label="What's On"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
       <input
-        className="join-item btn btn-square flex-grow"
-        type="radio"
-        name="options"
-        aria-label="4"
+        type="checkbox"
+        aria-label="About Us"
+        className="btn rounded-none btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
       />
     </div>
   );

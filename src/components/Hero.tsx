@@ -20,7 +20,7 @@ const Hero = () => {
               little fishing village on the south coast which was transformed
               into a fashionable seaside resort.
             </p>
-            <button className="btn btn-primary">Visit Us</button>
+            <button className="text-white  btn btn-info">Visit Us</button>
           </div>
         </div>
       </div>
