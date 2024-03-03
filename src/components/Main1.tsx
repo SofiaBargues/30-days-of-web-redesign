@@ -2,9 +2,9 @@ import { discount, molino } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className="h-full">
-      <div className="flex flex-row mb-10  hero max-h-screen gap-6 justify-center">
-        <div className="card w-56 bg-base-100 shadow-xl">
+    <section id="home" className="">
+      <div className="flex flex-row   hero max-h-screen gap-6 justify-center align-center">
+        <div className="card w-56 my-28  bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
               src="https://lh3.googleusercontent.com/a-/ALV-UjVcnMv1Iru6Bd9S929ej21LJwq5j1wPC68zxPRvVRqQ1Fw=w48-h48-p-rp-mo-br100"
