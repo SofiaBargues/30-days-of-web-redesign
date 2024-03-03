@@ -30,19 +30,14 @@ const Hero = () => {
             className="btn  btn-primary"
             onClick={() => document.getElementById("my_modal_2").showModal()}
           >
-            Open Time
+            Visit Us
           </button>
           <dialog id="my_modal_2" className="modal">
             <div className="modal-box text-center">
-              <h3 className="font-bold text-lg"> Hours: </h3>
+              <h3 className="font-bold text-lg">Visit Us</h3>
               <p className="py-4">
-                Monday 6 am–12 am <br />
-                Tuesday 6 am–12 am
-                <br /> Wednesday 6 am–12 am
-                <br /> Thursday 6 am–12 am <br />
-                Friday 6 am–12 am
-                <br /> Saturday 6 am–12 am
-                <br /> Sunday 10 am–4 pm
+                Monday 6 am–12 am Wednesday 6 am–12 am Thursday 6 am–12 am
+                Friday 6 am–12 am Saturday 6 am–12 am Sunday 10 am–4 pm
               </p>
               {/* <img
                 src="https://www.ravenside.net/resources/ravenside-map-2024.jpg"
