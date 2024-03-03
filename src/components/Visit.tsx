@@ -1,6 +1,6 @@
 // import { logo } from "../assets";
 
-const Visit = () => (
+export const Visit = () => (
   <section className=" ">
     <div className="flex h-full w-full mx-6 px-6 py-10 ">
       <div className="grid text-2xl h-20 place-items-center">
@@ -19,5 +19,3 @@ const Visit = () => (
     </div>
   </section>
 );
-
-export default Visit;

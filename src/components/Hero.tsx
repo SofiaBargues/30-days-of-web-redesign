@@ -1,6 +1,6 @@
 import { discount, robot } from "../assets";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <section id="home">
       <div
@@ -27,5 +27,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

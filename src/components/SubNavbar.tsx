@@ -2,7 +2,7 @@
 // import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants/data";
 
-const SubNavbar = () => {
+export const SubNavbar = () => {
   return (
     <div className="flex justify-center items-center py-6 bg-white text-white h-full">
       <input
@@ -38,5 +38,3 @@ const SubNavbar = () => {
     </div>
   );
 };
-
-export default SubNavbar;

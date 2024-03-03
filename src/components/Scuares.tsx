@@ -1,6 +1,6 @@
 // import { logo } from "../assets";
 
-const Scuares = () => (
+export const Squares = () => (
   <section>
     <div className="h-400 py-10 px-6">
       <div className="grid grid-cols-4 gap-4">
@@ -50,5 +50,3 @@ const Scuares = () => (
     </div>
   </section>
 );
-
-export default Scuares;

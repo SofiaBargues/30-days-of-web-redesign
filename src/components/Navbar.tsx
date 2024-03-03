@@ -2,7 +2,7 @@
 // import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants/data";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className="navbar bg-white">
       <div className="navbar-start"></div>
@@ -20,5 +20,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;

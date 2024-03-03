@@ -1,7 +1,7 @@
 // import { logo } from "../assets";
 import { navLinks } from "../constants/data";
 
-const Footer = () => (
+export const Footer = () => (
   <section>
     <footer className="footer footer-center p-10 bg-primary text-primary-content">
       <aside>
@@ -56,5 +56,3 @@ const Footer = () => (
     </footer>
   </section>
 );
-
-export default Footer;
