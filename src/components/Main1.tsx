@@ -3,8 +3,8 @@ import { discount, molino } from "../assets";
 const Hero = () => {
   return (
     <section id="home" className="">
-      <div className="flex flex-row   hero max-h-screen gap-6 justify-center align-center">
-        <div className="card w-56 my-28  bg-base-100 shadow-xl">
+      <div className="flex flex-row   hero max-h-screen gap-6 justify-center align-center h-screen">
+        <div className="card w-56 my-28  bg-base-100 shadow-xl  hover:bg-slate-300">
           <figure className="px-10 pt-10">
             <img
               src="https://lh3.googleusercontent.com/a-/ALV-UjVcnMv1Iru6Bd9S929ej21LJwq5j1wPC68zxPRvVRqQ1Fw=w48-h48-p-rp-mo-br100"
@@ -12,7 +12,7 @@ const Hero = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body items-center text-center">
+          <div className="card-body items-center text-center ">
             <h2 className="card-title">Sarah Hall</h2>
             <p>
               We use this company for 1to1 transfers to and from the airport.
@@ -21,7 +21,7 @@ const Hero = () => {
               excellent.
             </p>
             <div className="card-actions">
-              <div className="rating">
+              <div className="rating ">
                 <input
                   type="radio"
                   name="rating-2"
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="card w-56 bg-base-100 shadow-xl">
+        <div className="card w-56 bg-base-100 shadow-xl  hover:bg-slate-300">
           <figure className="px-10 pt-10">
             <img
               src="https://lh3.googleusercontent.com/a-/ALV-UjWK9aUuKkWX19iYhCXNSu-v7kQHD0m5rL--GqGZYxln4ZQ=w48-h48-p-rp-mo-ba5-br100"
@@ -100,7 +100,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="card w-56 bg-base-100 shadow-xl">
+        <div className="card w-56 bg-base-100 shadow-xl  hover:bg-slate-300">
           <figure className="px-10 pt-10">
             <img
               src="https://lh3.googleusercontent.com/a-/ALV-UjVPxRIRjO1qNwOyjoP5dQE_nA_zKfEzV4TK5UDx1VgQQhU=w48-h48-p-rp-mo-ba5-br100"
@@ -108,7 +108,7 @@ const Hero = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body items-center text-center">
+          <div className="card-body items-center text-center ">
             <h2 className="card-title">Keen Traveller</h2>
             <p>
               Excellent place to do your shopping although you will find no

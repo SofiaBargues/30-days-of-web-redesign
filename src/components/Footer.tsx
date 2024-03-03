@@ -3,7 +3,7 @@ import { navLinks } from "../constants/data";
 
 const Footer = () => (
   <section>
-    <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+    <footer className="footer items-center p-4 bg-primary text-neutral-content">
       <aside className="items-center grid-flow-col">
         <svg
           width="36"
