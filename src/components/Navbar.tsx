@@ -4,19 +4,76 @@ import { navLinks } from "../constants/data";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-white">
-      <div className="navbar-start"></div>
-      <div className="navbar-center">
-        <img
-          className=" h-auto"
-          src="https://static.wixstatic.com/media/f8d286_6df84a784cc24f23ac1998906ed05d7c~mv2_d_1417_1417_s_2.jpg/v1/fill/w_87,h_87,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f8d286_6df84a784cc24f23ac1998906ed05d7c~mv2_d_1417_1417_s_2.jpg"
-          alt="Placeholder"
-        />
-        <a className="text-2xl">
-          Brighton Seafront<br></br> Heritage Trust
-        </a>
+    <div className="navbar bg-base-100">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a>Item 1</a>
+            </li>
+            <li>
+              <a>Parent</a>
+              <ul className="p-2">
+                <li>
+                  <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a>Item 3</a>
+            </li>
+          </ul>
+        </div>
+        <a className="btn btn-ghost text-xl">daisyUI</a>
       </div>
-      <div className="navbar-end"></div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <a>Item 1</a>
+          </li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul className="p-2">
+                <li>
+                  <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <a>Item 3</a>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <a className="btn">Button</a>
+      </div>
     </div>
   );
 };
