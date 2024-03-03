@@ -3,22 +3,148 @@ import { discount, molino } from "../assets";
 const Hero = () => {
   return (
     <section id="home" className="h-full">
-      <div className="hero min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://jillwindmill.org.uk/images/cm1.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div className="text-center">
-            <h1 className="text-5xl font-bold my-6">Early History</h1>
-            <p className="py-6 max-w-lg">
-              The earliest reference to a windmill on the present site is from
-              September 1765 when an indenture was made between Viscount
-              Montague and Edward Oram of Clayton. It read: - 'Lease all that
-              part of ground near to Duncton Gate on which a windmill has been
-              lately erected by the son of the said Viscount and contained in
-              the whole by five rods every way for a term of 99 years.'
+      <div className="flex flex-row mb-10  hero max-h-screen gap-6 justify-center">
+        <div className="card w-56 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src="https://lh3.googleusercontent.com/a-/ALV-UjVcnMv1Iru6Bd9S929ej21LJwq5j1wPC68zxPRvVRqQ1Fw=w48-h48-p-rp-mo-br100"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Sarah Hall</h2>
+            <p>
+              We use this company for 1to1 transfers to and from the airport.
+              They are prompt, polite, can't rate them highly enough. We have
+              also used them in the past for private tours and they have been
+              excellent.
             </p>
+            <div className="card-actions">
+              <div className="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card w-56 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src="https://lh3.googleusercontent.com/a-/ALV-UjWK9aUuKkWX19iYhCXNSu-v7kQHD0m5rL--GqGZYxln4ZQ=w48-h48-p-rp-mo-ba5-br100"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Lemmy Morgan</h2>
+            <p>
+              This is an all-in-one park and marketplace. We have gatherings of
+              the very best supermarkets, restaurants, auto parts shops, and the
+              likes on this property. To mention but a few, the following
+              businesses are located on this site: …More
+            </p>
+            <div>
+              <div className="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card w-56 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src="https://lh3.googleusercontent.com/a-/ALV-UjVPxRIRjO1qNwOyjoP5dQE_nA_zKfEzV4TK5UDx1VgQQhU=w48-h48-p-rp-mo-ba5-br100"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Keen Traveller</h2>
+            <p>
+              Excellent place to do your shopping although you will find no
+              leisure activity here except if you consider shopping as a leisure
+              activity.
+            </p>
+            <div className="card-actions">
+              <div className="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

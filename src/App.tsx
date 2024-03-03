@@ -8,13 +8,9 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col h-full">
       <Navbar />
-      <main className="flex-1 h-screen flex flex-col">
-        <Hero />
-      </main>
-      <div className="flex-1  flex flex-row">
-        <Main />
-        <Main1 />
-      </div>
+      <main className="flex-1 h-screen flex flex-col"></main>
+      <Main />
+      <Main1 />
       <Footer />
     </div>
   );
