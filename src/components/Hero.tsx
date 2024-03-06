@@ -1,57 +1,50 @@
 import { discount, molino } from "../assets";
+import Main from "./Main";
 
 const Hero = () => {
   return (
-    <div
-      className="hero  min-h-screen bg-base-200"
-      style={{
-        backgroundImage:
-          "url(https://lh3.googleusercontent.com/p/AF1QipPf2pvtbCDCzYCLLtpUi8kQy1B0MCwl2DP4dylU=s680-w680-h510)",
-      }}
-    >
-      <div className=""></div>
-      <div className="hero-overlay bg-opacity-80 hero-content flex lg:flex-row">
-        <img
-          src="https://www.ravenside.net/2015/resources/ravenside-bexhill.jpg"
-          className="max-w-96 mx-12 rounded-lg shadow-2xl"
-        />
-        <div className=" mx-14 ">
-          <h1 className="text-5xl font-bold text-base-200">
-            Retail & Leisure Park
-          </h1>
-          <p className="py-6 text-base-200">
-            The retail and leisure park features 13 big name stores including a
-            24hr Tesco store and a large B&Q Warehouse which are a major draw
-            for shoppers who then have the choice of visiting Boots, Currys and
-            PC World amongst other big names at the shopping centre.
-          </p>
-          {/* Open the modal using document.getElementById('ID').showModal() method */}
-          <button
-            className="btn  btn-primary"
-            onClick={() => document.getElementById("my_modal_2").showModal()}
+    <section className="bg-center   bg-no-repeat bg-[url('https://images.unsplash.com/photo-1630395822970-acd6a691d97e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-gray-700 bg-blend-multiply">
+      <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+          All your celebrations and corporate events
+        </h1>
+        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+          You can be assured that we will work with you for your event or
+          wedding, to make it an evening to remember. Book with MG Sounds you
+          get a combined total of over 40 years of experience running your
+          music.
+        </p>
+        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <a
+            href="#"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
           >
-            Visit Us
-          </button>
-          <dialog id="my_modal_2" className="modal">
-            <div className="modal-box text-center">
-              <h3 className="font-bold text-lg">Visit Us</h3>
-              <p className="py-4">
-                Monday 6 am–12 am Wednesday 6 am–12 am Thursday 6 am–12 am
-                Friday 6 am–12 am Saturday 6 am–12 am Sunday 10 am–4 pm
-              </p>
-              {/* <img
-                src="https://www.ravenside.net/resources/ravenside-map-2024.jpg"
-                className="min-w-xl rounded-lg shadow-2xl"
-              /> */}
-            </div>
-
-            <form method="dialog" className="modal-backdrop">
-              <button>close</button>
-            </form>
-          </dialog>
+            Book
+            <svg
+              className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+          <a
+            href="#"
+            className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+          >
+            More
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,25 +1,28 @@
 import { discount, molino } from "../assets";
 
-const Hero = () => {
+const Main = () => {
   return (
     <section id="home">
-      <div className="flex flex-col h-full gap-6 py-28 justify-around items-center w-full bg-slate-100">
+      <div className="flex flex-col h-full gap-6 py-28 justify-around items-center w-full bg-secondary-800">
         <div className="text-center">
-          <h1 className="text-5xl  font-bold">Visit Us</h1>
+          <h1 className="text-5xl  font-bold">About us</h1>
           <p className="py-6 max-w-lg">
-            The vast majority of the restoration work and the ongoing
-            maintenance of Jill Windmill has been carried out by unpaid Society
-            Volunteers, who have met at the Mill on virtually every Saturday
-            since January 1979.
+            We are experienced DJs running a mobile disco based in the Herts
+            Beds & Bucks area. Providing music and lights for all your
+            celebrations and corporate events at reasonable prices. When you
+            book with MG Sounds you get a combined total of over 40 years of
+            experience running your music. We can play everything from Glenn
+            Miller to up to date, we’ll chat with you before your event to work
+            out your ideal play list.
           </p>
         </div>
-        <img
+        {/* <img
           src="https://www.ravenside.net/resources/ravenside-map-2024.jpg"
           className="min-w-xl rounded-lg shadow-2xl"
-        />
+        /> */}
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default Main;
