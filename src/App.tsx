@@ -8,18 +8,16 @@ import "flowbite";
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div className="h-screen">
+      {/* <Navbar /> */}
       <main>
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        <Visit />
-        <Proof />
-
-        {/* Others */}
+        {/* <Squares /> */}
+        {/* <Proof /> */}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

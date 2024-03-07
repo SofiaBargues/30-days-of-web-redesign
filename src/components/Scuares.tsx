@@ -3,49 +3,90 @@
 export const Squares = () => (
   <section>
     <div className="h-400 py-10 px-6">
-      <div className="grid grid-cols-4 gap-4">
-        <div className="relative group">
-          <img
-            className="w-full h-auto"
-            src="https://static.wixstatic.com/media/f8d286_7972c078365841e2b9a6ebbe50f24779~mv2_d_4303_3256_s_4_2.jpg/v1/fill/w_220,h_220,q_90/f8d286_7972c078365841e2b9a6ebbe50f24779~mv2_d_4303_3256_s_4_2.webp"
-            alt="Placeholder"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
-            <p className="text-white text-lg">Fishing Quarter Museum</p>
+      <div className="grid grid-cols-2 gap-96">
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-20">
+          <div className="relative group">
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              +
+            </button>
+            <dialog id="my_modal_2" className="modal text-secondary">
+              <div className="modal-box">
+                <h3 className="font-bold  text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
-        </div>
-        <div className="relative group">
-          <img
-            className="w-full h-auto"
-            src="https://static.wixstatic.com/media/f8d286_2e3d80b097a141be9ac54cc438efdec6~mv2.jpg/v1/fit/w_480,h_480,q_90/f8d286_2e3d80b097a141be9ac54cc438efdec6~mv2.webp"
-            alt="Placeholder"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
-            <p className="text-white text-lg">
-              Events & Exhibit Space For Hire
-            </p>
+        </figure>
+
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-16">
+          <div className="relative group">
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              +
+            </button>
+            <dialog id="my_modal_2" className="modal text-secondary">
+              <div className="modal-box">
+                <h3 className="font-bold  text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
-        </div>
-        <div className="relative group">
-          <img
-            className="w-full h-auto"
-            src="https://static.wixstatic.com/media/f8d286_d6d179d93cd44826815d957ba2393eed~mv2.jpg/v1/fit/w_480,h_479,q_90/f8d286_d6d179d93cd44826815d957ba2393eed~mv2.webp"
-            alt="Placeholder"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
-            <p className="text-white text-lg">Brighton Fishing Museum</p>
+        </figure>
+
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 p-10">
+          <div className="relative group">
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              +
+            </button>
+            <dialog id="my_modal_2" className="modal text-secondary">
+              <div className="modal-box">
+                <h3 className="font-bold  text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
-        </div>
-        <div className="relative group">
-          <img
-            className="w-auto h-full"
-            src="https://static.wixstatic.com/media/f8d286_f746d47d570c449fa27e553630cd8802~mv2_d_5108_3110_s_4_2.jpg/v1/fit/w_480,h_480,q_90/f8d286_f746d47d570c449fa27e553630cd8802~mv2_d_5108_3110_s_4_2.webp"
-            alt="Placeholder"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
-            <p className="text-white text-lg">Fishing Quarter Gallery</p>
+        </figure>
+
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 p-8">
+          <div className="relative group">
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              +
+            </button>
+            <dialog id="my_modal_2" className="modal text-secondary">
+              <div className="modal-box">
+                <h3 className="font-bold  text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
-        </div>
+        </figure>
       </div>
     </div>
   </section>

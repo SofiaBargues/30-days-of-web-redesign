@@ -1,88 +1,78 @@
 import { discount, robot } from "../assets";
+import { Squares } from "./Scuares";
 
 export const Hero = () => {
   return (
-    <section id="home">
-      <div
-        className="hero h-full"
-        // style={{
-        //   backgroundImage:
-        //     "url(https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5915.jpg)",
-        // }}
-      >
-        <div className=" grid grid-cols-2 my-4 md:grid-cols-4 gap-4">
-          <div className="grid gap-4">
-            <div>
-              <img
-                className=" h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5881.jpg"
-                alt=""
-              />
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage:
+          "url(https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/299942213_201469218885831_7580266301194550687_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YUfIpaEPc6wAX_E7lzU&_nc_ht=scontent-lhr8-2.xx&oh=00_AfDu3CZFghcJTbCJ3624ZoDmjU_jb9qQxygoB2IvLKfgqw&oe=65EF9F93)",
+      }}
+    >
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-7 font-extralight  text-7xl font-bold">
+            BLUEGATE FARM
+            <br /> HOLIDAY COTTAGES
+          </h1>
+          <p className="mb-5">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+
+          {/* The button to open modal */}
+          <label htmlFor="my_modal_7" className="btn">
+            open modal
+          </label>
+
+          {/* Put this part before </body> tag */}
+          <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+          <div className="modal" role="dialog">
+            <div className="modal-box">
+              <div className="hero text-primary-content">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                  <div className="text-center lg:text-left">
+                    <h1 className="text-4xl font-bold">To Book contact us!</h1>
+                    <p className="py-6">
+                      <p className=" font-bold"> Prices per week:</p>
+                      <br /> January, February, March, November & December £550
+                      <br /> April, May, June, September & October £600 <br />
+                      July & August £680 <br />
+                      Christmas and New Year weeks are also £680.
+                    </p>
+                  </div>
+                  <div className="card shrink-0 w-full shadow-2xl bg-base-100">
+                    <form className="card-body">
+                      <div className="form-control">
+                        <label className="label">
+                          <span className="label-text">Email</span>
+                        </label>
+                        <input
+                          type="email"
+                          placeholder="email"
+                          className="input input-bordered"
+                          required
+                        />
+                      </div>
+
+                      <div className="form-control mt-6">
+                        <button className="btn btn-primary">Send</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5923.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5915.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5886.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5919.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5910.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://thedoghousepub.co.uk/wp-content/gallery/dog-house-pub-main-gallery/MG_5907.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div className="hero-overlay bg-opacity-600"></div>
-        <div className="hero-content text-center text-neutral-content ">
-          <div className="max-w-md ">
-            <h1 className="mb-5 text-5xl text-white font-bold py-20">
-              The Dog House Pub{" "}
-            </h1>
-            <p className="mb-5  text-white ">
-              Come take a journey with us into the rich history of Brighton’s
-              Fishing Community. Discover a Brighton of the past: a bustling
-              little fishing village on the south coast which was transformed
-              into a fashionable seaside resort.
-            </p>
-            <button className="text-neutral  btn btn-secondary my-10">
-              Visit Us
-            </button>
+            <label className="modal-backdrop" htmlFor="my_modal_7">
+              Close
+            </label>
           </div>
         </div>
       </div>
-    </section>
+      <Squares />
+    </div>
   );
 };
