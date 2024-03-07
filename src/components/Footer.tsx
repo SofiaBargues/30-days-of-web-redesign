@@ -3,16 +3,16 @@ import { navLinks } from "../constants/data";
 
 export const Footer = () => (
   <section>
-    <footer className="footer footer-center p-10 bg-primary text-primary-content">
+    <footer className="footer footer-center p-10 bg-secondary text-primary-content">
       <aside>
         <img
           className="w-52 h-auto"
-          src="https://www.heritagefund.org.uk/sites/default/files/NLHF_Logo_English_Landscape_Full_Colour_RGB_3_0.png"
+          src="https://thedoghousepub.co.uk/wp-content/themes/projectx/assets/graphics/logo.png"
           alt="Placeholder"
         />
         <p className="font-bold ">
-          info@fishingquarter.co.uk <br />
-          201 Kings Rd Arches, Brighton BN1 1NB
+          info@thedoghousepub.co.uk <br />
+          Evegate, Station Road, Smeeth, Kent, TN25 6SX
         </p>
         <p>Sofi 🌼 © 2024 </p>
       </aside>
