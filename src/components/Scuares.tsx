@@ -11,7 +11,7 @@ export const Squares = () => (
               className="btn btn-ghost text-2xl btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_1").showModal()}
             >
-              +
+              📍
             </button>
             <dialog
               id="my_modal_1"
@@ -37,7 +37,7 @@ export const Squares = () => (
               className="btn btn-ghost text-2xl btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_2").showModal()}
             >
-              +
+              🔎
             </button>
             <dialog id="my_modal_2" className="modal text-secondary p-20">
               <div className="">
@@ -77,7 +77,7 @@ export const Squares = () => (
               className="btn btn-ghost text-2xl btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_3").showModal()}
             >
-              +
+              🏡
             </button>
             <dialog id="my_modal_3" className="modal text-secondary">
               <div className="modax">
@@ -113,7 +113,7 @@ export const Squares = () => (
               className="btn btn-ghost text-2xl btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_4").showModal()}
             >
-              +
+              ➕
             </button>
             <dialog id="my_modal_4" className="modal text-secondary">
               <div className="modal-box text-neutral">

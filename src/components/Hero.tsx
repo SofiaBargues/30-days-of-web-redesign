@@ -26,8 +26,8 @@ export const Hero = () => {
           </p>
 
           {/* The button to open modal */}
-          <label htmlFor="my_modal_7" className="btn">
-            open modal
+          <label htmlFor="my_modal_7" className="btn btn-lg my-10 btn-primary">
+            Contact
           </label>
 
           {/* Put this part before </body> tag */}
