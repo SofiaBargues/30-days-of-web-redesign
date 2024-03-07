@@ -18,9 +18,11 @@ export const Hero = () => {
             <br /> HOLIDAY COTTAGES
           </h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Bluegate Farm Holiday Cottages have been stunningly converted from
+            our 18th Century red brick barn to two idyllic self catering holiday
+            cottages in the middle of the countryside. Situated on a working
+            farm in the quiet village of Stanbridge in Bedfordshire we are
+            treated to the beautiful far reaching views of the Chiltern hills.
           </p>
 
           {/* The button to open modal */}
