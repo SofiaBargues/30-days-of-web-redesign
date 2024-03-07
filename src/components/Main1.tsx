@@ -2,7 +2,7 @@ import { discount, molino } from "../assets";
 
 const SocialProof = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero py-10 bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Contact Us</h1>
