@@ -6,7 +6,7 @@ export const Visit = () => (
       <div className="grid text-2xl h-20 place-items-center">
         Duncan and Claire welcome you to The Dog House.
       </div>
-      <div className="divider divider-horizontal "></div>
+      <div className="divider divider-prymary divider-horizontal "></div>
       <div className="text-xl mx-6 px-6 grid h-96 flex-grow card  rounded-box place-items-center">
         As new custodians of the micro pub we hope to continue in the footsteps
         of Karen and Jim and stay true to the venues friendly and warm

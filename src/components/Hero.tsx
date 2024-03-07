@@ -66,11 +66,10 @@ export const Hero = () => {
           </div>
         </div>
         <div className="hero-overlay bg-opacity-600"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl text-white font-bold">
-              The Dog <br />
-              House Pub{" "}
+        <div className="hero-content text-center text-neutral-content ">
+          <div className="max-w-md ">
+            <h1 className="mb-5 text-5xl text-white font-bold py-20">
+              The Dog House Pub{" "}
             </h1>
             <p className="mb-5  text-white ">
               Come take a journey with us into the rich history of Brighton’s
@@ -78,7 +77,7 @@ export const Hero = () => {
               little fishing village on the south coast which was transformed
               into a fashionable seaside resort.
             </p>
-            <button className="text-neutral  btn btn-secondary">
+            <button className="text-neutral  btn btn-secondary my-10">
               Visit Us
             </button>
           </div>
