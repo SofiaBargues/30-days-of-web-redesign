@@ -8,7 +8,7 @@ export const Squares = () => (
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
-              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              className="btn btn-lg  btn-ghost text-4xl btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_1").showModal()}
             >
               📍
@@ -34,7 +34,7 @@ export const Squares = () => (
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
-              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              className="btn btn-ghost btn-lg text-4xl  btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_2").showModal()}
             >
               🔎
@@ -74,7 +74,7 @@ export const Squares = () => (
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
-              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              className="btn btn-lg  btn-ghost text-4xl  btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_3").showModal()}
             >
               🏡
@@ -110,7 +110,7 @@ export const Squares = () => (
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
-              className="btn btn-ghost text-2xl btn-outline  btn-secondary"
+              className="btn btn-lg  btn-ghost text-4xl  btn-outline  btn-secondary"
               onClick={() => document.getElementById("my_modal_4").showModal()}
             >
               ➕
