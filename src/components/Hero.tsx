@@ -8,7 +8,10 @@ export const Hero = () => {
     <section className="bg-accent w-screen">
       <div className="max-w-screen-xl grid-cols-2">
         <div className="my-6"></div>
-        <div id="mega-menu-full-dropdown " className="flex justify-center   ">
+        <div
+          id="mega-menu-full-dropdown "
+          className="flex justify-center mb-6d  "
+        >
           <div className="  min-w-screen flex justify-center text-center text-balance    text-white grid-cols-2 ">
             <ul>
               <li>
