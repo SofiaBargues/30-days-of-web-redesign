@@ -1,5 +1,6 @@
 import { discount, robot } from "../assets";
 import { Navbar } from "./Navbar";
+import { Proof } from "./Proof";
 import { Squares } from "./Scuares";
 
 export const Hero = () => {
@@ -44,6 +45,7 @@ export const Hero = () => {
             </a>
           </div>
         </div>
+        <Proof />
         <div>
           <iframe
             className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"

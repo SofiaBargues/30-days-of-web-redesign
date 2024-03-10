@@ -2,7 +2,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import { Squares } from "./components/Scuares";
-import { Visit } from "./components/Visit";
+import { Visit } from "./components/Proof";
 
 function App() {
   return (
