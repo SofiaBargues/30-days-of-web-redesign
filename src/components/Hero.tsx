@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="my-6"></div>
         <div
           id="mega-menu-full-dropdown "
-          className="flex justify-center mb-6d  "
+          className="flex justify-center mb-6  "
         >
           <div className="  min-w-screen flex justify-center text-center text-balance    text-white grid-cols-2 ">
             <ul>
