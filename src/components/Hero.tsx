@@ -6,30 +6,71 @@ export const Hero = () => {
   return (
     <section id="home">
       <div
-        className="hero h-full"
+        className="hero h-full w-screen"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1520887765234-50c138bba976?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+            "url(https://www.totternhoememorialhall.com/uploads/7/1/3/6/71365849/whatsapp-image-2020-11-08-at-11-10-54-8.jpeg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-30"></div>
-        <div className="grid grid-col hero-content text-center text-neutral-content">
-          <div className="max-w-2xl mx-48 mb-10">
-            <h1 className="mb-5 text-5xl font-extralight">
-              Rustic Pop-up Campsite
-              <br /> Pett, East Sussex
+        <div className="hero-overlay bg-opacity-60 "></div>
+        <div className="flex flex-col hero-content pb-10 justify-end h-full text-center text-white">
+          <div className="max-w-2xl text-balance p-20 ">
+            <h1 className=" text-5xl pb-10 font-medium">
+              Your village-your Hall!
             </h1>
-            <p className="mb-5">
-              Private, family friendly site surrounded by farmland Each year,
-              once the hay has been harvested, we are able to offer Summer
-              pop-up camping in August, in the Spring Meadow and the Big Meadow.
-              These are grazed, flowering meadows part of nearby Lunsford Farm
+            <p className="mb-5 text-xl">
+              The Memorial Hall was opened in 1928 and dedicated as a memorial
+              to those villagers who were killed in the First World War. Now a
+              days is maintained by trustees and run by a volunteer committee.
             </p>
-            <button className="text-white  m-10 btn btn-lg btn-accent">
-              Visit Us
-            </button>
+            <div className="drawer drawer-end">
+              <input
+                id="my-drawer-4"
+                type="checkbox"
+                className="drawer-toggle"
+              />
+              <div className="drawer-content">
+                {/* Page content here */}
+                <label
+                  htmlFor="my-drawer-4"
+                  className="drawer-button btn-lg font-extrabold btn btn-ghost"
+                >
+                  More Information
+                </label>
+              </div>
+              <div className="drawer-side">
+                <label
+                  htmlFor="my-drawer-4"
+                  aria-label="close sidebar"
+                  className="drawer-overlay"
+                ></label>
+                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                  {/* Sidebar content here */}
+                  <li>
+                    <a>Home</a>
+                  </li>
+                  <li>
+                    <a>About</a>
+                  </li>
+                  <li>
+                    <a>Winter Beer Festival</a>
+                  </li>
+                  <li>
+                    <a>Remembrance</a>
+                  </li>
+                  <li>
+                    <a>The Bar</a>
+                  </li>
+                  <li>
+                    <a>Al Fresco</a>
+                  </li>
+                  <li>
+                    <a>Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <Squares />
         </div>
       </div>
     </section>
