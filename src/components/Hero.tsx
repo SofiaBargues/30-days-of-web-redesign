@@ -18,7 +18,7 @@ export const Hero = () => {
             <h1 className=" text-5xl pb-10 font-medium">
               Your village-your Hall!
             </h1>
-            <p className="mb-5 text-xl">
+            <p className="mb-5 text-xl font-light">
               The Memorial Hall was opened in 1928 and dedicated as a memorial
               to those villagers who were killed in the First World War. Now a
               days is maintained by trustees and run by a volunteer committee.
@@ -33,7 +33,7 @@ export const Hero = () => {
                 {/* Page content here */}
                 <label
                   htmlFor="my-drawer-4"
-                  className="drawer-button btn-lg font-extrabold btn btn-ghost"
+                  className="drawer-button btn btn-outline mt-10 font-extrabold"
                 >
                   More Information
                 </label>
@@ -44,7 +44,7 @@ export const Hero = () => {
                   aria-label="close sidebar"
                   className="drawer-overlay"
                 ></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                <ul className="menu py-40 gap-10  w-80 text-2xl  min-h-full bg-base-200 text-base-content">
                   {/* Sidebar content here */}
                   <li>
                     <a>Home</a>
