@@ -6,17 +6,17 @@ import { Visit } from "./components/Visit";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col h-full">
       <Navbar />
-      <main>
+      <main className="flex flex-1">
         <Hero />
-        <Squares />
-        <Visit />
+        {/* <Squares /> */}
+        {/* <Visit /> */}
 
         {/* Others */}
       </main>
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </div>
   );
 }
 
