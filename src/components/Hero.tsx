@@ -17,14 +17,14 @@ export const Hero = () => {
             allowFullScreen=""
           />
         </div>
-        <div className="mb-16">
+        <div className="my-16">
           <Proof />
         </div>
         <div
           id="mega-menu-full-dropdown"
           className="flex justify-center md:bg-white  "
         >
-          <div className=" max-w-screen-xl flex justify-center text-center text-balance    dark:text-white sm:grid-cols-2 md:px-6">
+          <div className=" mx-6 max-w-screen-xl flex justify-center text-center text-balance    dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
               <li>
                 <a
