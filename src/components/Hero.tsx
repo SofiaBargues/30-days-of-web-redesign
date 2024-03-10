@@ -7,7 +7,7 @@ export const Hero = () => {
         className="hero min-h-screen"
         style={{
           backgroundImage:
-            "url(https://www.pettcamping.com/wp-content/uploads/go-x/u/1e892494-2842-493a-8e1d-e7d1d2d94bf3/l438,t0,w1125,h1500/image-768x1024.jpg)",
+            "url(https://images.unsplash.com/photo-1520887765234-50c138bba976?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
