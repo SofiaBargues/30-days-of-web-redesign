@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="bg-accent w-screen">
       <div className="max-w-screen-xl grid-cols-2">
-        <div className="my-6"></div>
+        <div className="mt-3"></div>
         <div
           id="mega-menu-full-dropdown "
           className="flex justify-center mb-6  "
