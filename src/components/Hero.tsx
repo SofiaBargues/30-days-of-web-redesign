@@ -1,4 +1,6 @@
 import { discount, robot } from "../assets";
+import { Navbar } from "./Navbar";
+import { Squares } from "./Scuares";
 
 export const Hero = () => {
   return (
@@ -11,8 +13,8 @@ export const Hero = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+        <div className="grid grid-col py-10 hero-content text-center text-neutral-content">
+          <div className="max-w-md mx-48 mb-40">
             <h1 className="mb-5 text-5xl font-bold">Brighton Fishing Museum</h1>
             <p className="mb-5">
               Come take a journey with us into the rich history of Brighton’s
@@ -22,6 +24,7 @@ export const Hero = () => {
             </p>
             <button className="text-white  btn btn-info">Visit Us</button>
           </div>
+          <Squares />
         </div>
       </div>
     </section>
