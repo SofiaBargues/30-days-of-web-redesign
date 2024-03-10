@@ -15,7 +15,7 @@ function App() {
 
         {/* Others */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

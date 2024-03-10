@@ -4,8 +4,8 @@ import { navLinks } from "../constants/data";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
-      <a className="text-xl p-2 font-bold">TOTTERNHOE MEMORIAL HALL</a>
+    <div className="navbar bg-accent-content flex justify-center ">
+      <a className="text-3xl text-white  p-2 font-serif ">Driftwood By Sea</a>
     </div>
   );
 };
