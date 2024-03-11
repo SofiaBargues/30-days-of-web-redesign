@@ -1,80 +1,56 @@
 import { discount, robot } from "../assets";
+import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
 
 export const Hero = () => {
   return (
     <div
-      className="hero min-h-screen"
+      className="hero  min-h-screen"
       style={{
         backgroundImage:
-          "url(https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/299942213_201469218885831_7580266301194550687_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YUfIpaEPc6wAX_E7lzU&_nc_ht=scontent-lhr8-2.xx&oh=00_AfDu3CZFghcJTbCJ3624ZoDmjU_jb9qQxygoB2IvLKfgqw&oe=65EF9F93)",
+          "url(https://whitelionhotelseaford.co.uk/wp-content/uploads/HN1_1571_HDR-1024x683.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
+      <div className="flex flex-col content-between text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-7 font-extralight  text-7xl font-bold">
-            BLUEGATE FARM
-            <br /> HOLIDAY COTTAGES
+          <h1 className="mb-7 font-extralight  text-7xl ">
+            THE WHITE
+            <br /> LION HOTEL
           </h1>
-          <p className="mb-5">
-            Bluegate Farm Holiday Cottages have been stunningly converted from
-            our 18th Century red brick barn to two idyllic self catering holiday
-            cottages in the middle of the countryside. Situated on a working
-            farm in the quiet village of Stanbridge in Bedfordshire we are
-            treated to the beautiful far reaching views of the Chiltern hills.
+          <p className="mb-5 text-xl">
+            Seaford is one of the best kept secrets on the South Coast and The
+            White Lion Hotel offers everything you need to enjoy the area in
+            comfort.
           </p>
-
-          {/* The button to open modal */}
-          <label htmlFor="my_modal_7" className="btn btn-lg my-10 btn-primary">
-            Contact
-          </label>
-
-          {/* Put this part before </body> tag */}
-          <input type="checkbox" id="my_modal_7" className="modal-toggle" />
-          <div className="modal" role="dialog">
-            <div className="modal-box">
-              <div className="hero text-primary-content">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                  <div className="text-center lg:text-left">
-                    <h1 className="text-4xl font-bold">To Book contact us!</h1>
-                    <p className="py-6">
-                      <p className=" font-bold"> Prices per week:</p>
-                      <br /> January, February, March, November & December £550
-                      <br /> April, May, June, September & October £600 <br />
-                      July & August £680 <br />
-                      Christmas and New Year weeks are also £680.
-                    </p>
-                  </div>
-                  <div className="card shrink-0 w-full shadow-2xl bg-base-100">
-                    <form className="card-body">
-                      <div className="form-control">
-                        <label className="label">
-                          <span className="label-text">Email</span>
-                        </label>
-                        <input
-                          type="email"
-                          placeholder="email"
-                          className="input input-bordered"
-                          required
-                        />
-                      </div>
-
-                      <div className="form-control mt-6">
-                        <button className="btn btn-primary">Send</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
+          <div className="join flex justify-center mt-20">
+            <div>
+              <div>
+                <input
+                  className="input input-bordered  text-slate-700 join-item"
+                  placeholder="Date"
+                />
               </div>
             </div>
-            <label className="modal-backdrop" htmlFor="my_modal_7">
-              Close
-            </label>
+            <select className="select select-bordered text-slate-700 join-item">
+              <option disabled selected>
+                Room
+              </option>
+              <option>Double Room, Sea Views.</option>
+              <option>Family Room</option>
+              <option>Single Room, With Ensuite</option>
+            </select>
+            <div className="indicator">
+              <button className="btn join-item">Search</button>
+            </div>
+            <input
+              className="input input-bordered join-item"
+              placeholder="Email"
+            />
+            <button className="btn join-item rounded-r-full">Send</button>
           </div>
         </div>
       </div>
-      <Squares />
     </div>
   );
 };

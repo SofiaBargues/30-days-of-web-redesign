@@ -9,14 +9,14 @@ import "flowbite";
 function App() {
   return (
     <div className="h-screen">
-      {/* <Navbar /> */}
       <main>
+        <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
         {/* <Squares /> */}
-        {/* <Proof /> */}
+        {/* <Visit /> */}
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
 }

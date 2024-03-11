@@ -4,74 +4,43 @@ import { navLinks } from "../constants/data";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
-          </ul>
-        </div>
-        <p className="text-xl">The Dog House Pub</p>
+    <div className="p-6 navbar absolute">
+      <div className="flex-1">
+        <a className="text-neutral-content text-xl">THE WHITE LION HOTEL</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="flex-none text-neutral-content">
+        <div className="indicator">
+          <span className="indicator-item badge badge-secondary ">new</span>
+          <button className="btn border-none  join-item bg-transparent text-neutral-content ">
+            <a>RESTAURANT</a>
+          </button>
+        </div>
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
+          <li></li>
           <li>
             <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
+              <summary>HOTEL</summary>
+              <ul className="p-2 bg-transparent">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Information</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Rooms</a>
+                </li>
+                <li>
+                  <a>Menu</a>
+                </li>
+                <li>
+                  <a>Opening</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
                 </li>
               </ul>
             </details>
           </li>
-          <li>
-            <a>Item 3</a>
-          </li>
         </ul>
       </div>
-      <div className="navbar-end"></div>
     </div>
   );
 };
