@@ -11,6 +11,8 @@ import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 import { Sweep } from "./components/Sweep";
+import { Video } from "./components/Video";
+import { Stacks } from "./components/Stacks";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
+        <Stacks />
         <Sweep />
+        <Video />
         {/* <Squares /> */}
         {/* <Visit /> */}
         <Footer />
