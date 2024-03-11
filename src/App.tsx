@@ -23,9 +23,9 @@ function App() {
         <Hero />
         <Sweep />
         <Visit />
-        <Video />
-        <Footer />
+        {/* <Video /> */}
         <Squares />
+        <Footer />
       </main>
     </div>
   );
