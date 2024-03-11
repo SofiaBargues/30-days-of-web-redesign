@@ -6,13 +6,13 @@ export const Navbar = () => {
   return (
     <div className="p-6 navbar absolute">
       <div className="flex-1">
-        <a className="text-neutral-content text-xl">THE WHITE LION HOTEL</a>
+        {/* <a className="text-neutral-content text-xl">THE WHITE LION HOTEL</a> */}
       </div>
       <div className="flex-none text-neutral-content">
         <div className="indicator">
-          <span className="indicator-item badge badge-secondary ">new</span>
+          <summary className="indicator-item badge badge-accent">Open</summary>
           <button className="btn btn-sm hover:bg-neutral border-none  join-item bg-transparent text-neutral-content ">
-            <a>RESTAURANT</a>
+            <a>Represent Me</a>
           </button>
         </div>
         <ul className="menu  menu-horizontal px-1">

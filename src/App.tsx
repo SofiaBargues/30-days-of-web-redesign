@@ -21,9 +21,7 @@ function App() {
         <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        <Stacks />
         <Sweep />
-        <Video />
         {/* <Squares /> */}
         {/* <Visit /> */}
         <Footer />

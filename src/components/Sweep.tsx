@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 
 export const Sweep = () => (
-  <section className="bg-neutral">
+  <section className="bg-black m-10">
     <Swiper
       effect={"cards"}
       grabCursor={true}
