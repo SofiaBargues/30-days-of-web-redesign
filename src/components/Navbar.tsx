@@ -11,11 +11,11 @@ export const Navbar = () => {
       <div className="flex-none text-neutral-content">
         <div className="indicator">
           <span className="indicator-item badge badge-secondary ">new</span>
-          <button className="btn border-none  join-item bg-transparent text-neutral-content ">
+          <button className="btn btn-sm hover:bg-neutral border-none  join-item bg-transparent text-neutral-content ">
             <a>RESTAURANT</a>
           </button>
         </div>
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu  menu-horizontal px-1">
           <li></li>
           <li>
             <details>
