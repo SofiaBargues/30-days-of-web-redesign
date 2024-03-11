@@ -1,6 +1,6 @@
 // import { logo } from "../assets";
 
-export const Proof = () => (
+export const Stacks = () => (
   <section>
     <div className="stats w-screen h-40 shadow ">
       <div className="stat">

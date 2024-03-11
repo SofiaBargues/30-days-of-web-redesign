@@ -22,8 +22,9 @@ function App() {
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
         <Sweep />
-        {/* <Squares /> */}
-        {/* <Visit /> */}
+        <Visit />
+
+        <Video />
         <Footer />
       </main>
     </div>
