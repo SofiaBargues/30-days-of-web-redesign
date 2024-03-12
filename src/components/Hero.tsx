@@ -89,7 +89,7 @@ export const Hero = () => {
           </div>
         </div>
         <Proof />
-        <div>
+        {/* <div>
           <iframe
             className=" mx-auto w-full h-full  rounded-none lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
             src="https://www.youtube.com/embed/CJuQ5zUvWBU?si=hJFTEGxj8IZ6Ty8y&amp;start=9"
@@ -98,7 +98,7 @@ export const Hero = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen=""
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
