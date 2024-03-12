@@ -13,6 +13,7 @@ import { EffectCards } from "swiper/modules";
 import { Sweep } from "./components/Sweep";
 import { Video } from "./components/Video";
 import { Stacks } from "./components/Stacks";
+import VideoComponent from "./components/VideoComponent";
 
 function App() {
   return (

@@ -2,10 +2,12 @@
 
 export const Squares = () => (
   <section>
-    <div className="h-400 px-6">
-      <h1>faerfdsfa</h1>
-      <div className="grid grid-cols-3   p-10 ">
-        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
+    <div className="c">
+      <div className="  text-5xl text-balance text-center font-semibold rounded-box place-items-center">
+        Showreels
+      </div>
+      <div className="grid h grid-cols-3 gap-20 m-16 items-center ">
+        <figure className="relative max-w-sm  transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <iframe
             width="415"
             height="233"
