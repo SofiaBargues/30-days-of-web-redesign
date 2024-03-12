@@ -13,6 +13,33 @@ export const Video = () => {
           allowFullScreen
         />
       </div>
+      <div className="mb-16 md:mb-0 md:max-w-xl sm:mx-auto md:text-center">
+        <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          The quick, brown fox jumps over a very sad and{" "}
+          <span className="inline-block text-deep-purple-accent-400">
+            lazy dog
+          </span>
+        </h2>
+        <p className="mb-5 text-base text-gray-700 md:text-lg">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+        </p>
+        <div className="flex items-center md:justify-center">
+          <a
+            href="/"
+            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+          >
+            Get started
+          </a>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+          >
+            Learn more
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
