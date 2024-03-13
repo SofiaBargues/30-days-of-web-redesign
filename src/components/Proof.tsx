@@ -2,7 +2,7 @@
 
 export const Proof = () => (
   <section>
-    <div className=" px-2 py-2 w-full bg-white">
+    <div className=" px-2 py-20 w-full bg-white">
       <div className="flex flex-row  items-center  gap-2">
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <div className="relative group">

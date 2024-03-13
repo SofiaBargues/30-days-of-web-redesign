@@ -47,7 +47,7 @@ export const Squares = () => (
           >
             <dialog
               id="my_modal_3"
-              className="modal text-accent  transition-none"
+              className="modal text-accent transition-none"
             >
               <div className="modal-box text-balance">
                 <h3 className="font-bold text-lg">Campfires</h3>
