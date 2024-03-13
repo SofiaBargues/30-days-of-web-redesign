@@ -81,24 +81,18 @@ export const Squares = () => (
               🏡
             </button>
 
-            <dialog id="my_modal_3" className="modal ">
-              <div className="modax">
-                <h3 className="font-bold  text-center pb-10 text-5xl">
+            <dialog id="my_modal_3" className=" modal ">
+              <div className="modal-box">
+                <h3 className="font-bold text-center pb-10 text-5xl">
                   Heartsease
                 </h3>
                 <div className="h-96 w-full  carousel carousel-vertical ">
                   <div className="carousel-item h-full">
                     <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/newest-outdoor-pic2_orig.jpg" />
                   </div>
-                  {/* <div className="carousel-item h-full">
-                    <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/2156710.jpg?250" />
-                  </div> */}
                   <div className="carousel-item h-full">
                     <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/editor/heartsease-bathroom-2017.jpg?250" />
                   </div>
-                  {/* <div className="carousel-item h-full">
-                    <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/published/img-0369_1.jpg?1536525923" />
-                  </div> */}
                 </div>
               </div>
               <form method="dialog" className="modal-backdrop">
