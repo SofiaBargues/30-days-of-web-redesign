@@ -38,21 +38,26 @@ export const Hero = () => {
           <div>
             <div>
               <input
-                className="input  text-slate-700 join-item"
+                type="date"
+                className="input  join-item"
                 placeholder="Date"
               />
             </div>
           </div>
-          <select className="select  text-slate-700 join-item">
+          <select className="select   join-item">
             <option disabled selected>
-              Room
+              Campers
             </option>
-            <option>Double Room, Sea Views.</option>
-            <option>Family Room</option>
-            <option>Single Room, With Ensuite</option>
+            <option>10 to 20</option>
+            <option>20 to 40</option>
+            <option>40 to 50</option>
           </select>
           <div className="indicator"></div>
-          <input className="input  join-item" placeholder="Email" />
+          <input
+            className="input  join-item"
+            type="email"
+            placeholder="Email"
+          />
           <button className="btn join-item rounded-r-full">Send</button>
         </div>
       </div>
