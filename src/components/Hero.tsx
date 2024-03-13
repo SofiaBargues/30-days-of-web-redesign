@@ -43,7 +43,7 @@ export const Hero = () => {
               />
             </div>
           </div>
-          <select className="select select-bordered-none text-slate-700 join-item">
+          <select className="select  text-slate-700 join-item">
             <option disabled selected>
               Room
             </option>
