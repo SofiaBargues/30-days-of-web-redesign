@@ -13,20 +13,20 @@ export const Navbar = () => {
       </div>
 
       <div className="flex-1">
-        <a className="text-neutral-content text-xl">THE WHITE LION HOTEL</a>
+        <a className="text-neutral-content text-xl"></a>
       </div>
       <div className="flex-none text-neutral-content">
         <div className="indicator">
           <span className="indicator-item badge badge-secondary ">new</span>
-          <button className="btn btn-sm hover:bg-neutral border-none  join-item bg-transparent text-neutral-content ">
-            <a>RESTAURANT</a>
+          <button className=" btn btn-sm hover:bg-neutral border-none  join-item bg-transparent text-neutral-content ">
+            <a>Business</a>
           </button>
         </div>
         <ul className="menu  menu-horizontal px-1">
           <li></li>
           <li>
             <details>
-              <summary>HOTEL</summary>
+              <summary>Camps</summary>
               <ul className="p-2 bg-transparent">
                 <li>
                   <a>Information</a>

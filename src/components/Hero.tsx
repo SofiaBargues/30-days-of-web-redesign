@@ -14,10 +14,10 @@ export const Hero = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div>
         <div className="flex w-full">
-          <div className="grid flex-grow  h-96 card bg-base-300 rounded-box place-items-center">
+          <div className="grid flex-grow  h-96 card rounded-box place-items-center">
             <div className="flex flex-col content-between text-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-7 font-extralight  text-7xl ">
+              <div className="max-w-md ">
+                <h1 className=" font-extralight mb-14  text-7xl ">
                   Welcome to
                   <br /> HEARTSEAE
                 </h1>
@@ -29,8 +29,8 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="divider lg:divider-horizontal">OR</div>
-          <div className="grid flex-grow h-96 card bg-base-100 rounded-box place-items-center">
+          <div className="divider lg:divider-horizontal"></div>
+          <div className="grid flex-grow h-96 card  rounded-box place-items-center">
             <Squares />
           </div>
         </div>
