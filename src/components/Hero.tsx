@@ -11,6 +11,7 @@ export const Hero = () => {
           "url(https://lh3.googleusercontent.com/p/AF1QipNrAOnSTv8CLFAMJ-I5qRDCNM5vFK077UMUlTxN=s680-w680-h510)",
       }}
     >
+      <div className="hero-overlay bg-opacity-60"></div>
       <div>
         <div className="flex w-full">
           <div className="grid flex-grow  h-96 card bg-base-300 rounded-box place-items-center">
@@ -33,7 +34,6 @@ export const Hero = () => {
             <Squares />
           </div>
         </div>
-        <div className="hero-overlay bg-opacity-60"></div>
         <div className="join mt-20">
           <div>
             <div>
