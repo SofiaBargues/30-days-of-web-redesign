@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        {/* <Squares /> */}
+
         {/* <Visit /> */}
         <Footer />
       </main>

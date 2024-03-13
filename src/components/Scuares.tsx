@@ -2,9 +2,9 @@
 
 export const Squares = () => (
   <section>
-    <div className="h-400 py-10 px-6">
-      <div className="grid grid-cols-2 gap-96">
-        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-20">
+    <div className=" ">
+      <div className="grid grid-cols-1">
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
@@ -30,7 +30,7 @@ export const Squares = () => (
           </div>
         </figure>
 
-        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-16">
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
@@ -43,7 +43,7 @@ export const Squares = () => (
               <div className="">
                 <div className="card w-auto text-center m-10 bg-base-100 shadow-md image-full">
                   <figure>
-                    <img src="https://files.uk2sitebuilder.com/66/0e/660ed8ff-3aab-485e-a5a4-c14350963702.jpg" />
+                    <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/published/output-3.png?1679330491" />
                   </figure>
                   <div className="card-body gap-32">
                     <h2 className="card-title mt-11 text-5xl ">About Us</h2>
@@ -70,7 +70,7 @@ export const Squares = () => (
           </div>
         </figure>
 
-        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 p-10">
+        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
@@ -106,7 +106,7 @@ export const Squares = () => (
           </div>
         </figure>
 
-        <figure className="relative px-20 max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 p-8">
+        <figure className="relative px-20 max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <div className="relative group">
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
