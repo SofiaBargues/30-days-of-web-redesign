@@ -2,7 +2,7 @@
 
 export const Stacks = () => (
   <section>
-    <div className="stats w-screen h-40  shadow ">
+    <div className="stats w-screen h-56 m-9  shadow ">
       <div className="stat">
         <div className="stat-figure text-secondary">
           <svg

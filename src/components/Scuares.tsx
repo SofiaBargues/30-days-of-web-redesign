@@ -2,8 +2,8 @@
 
 export const Squares = () => (
   <section>
-    <div className="">
-      <div className="  text-5xl text-balance text-center font-semibold rounded-box place-items-center">
+    <div className="py-20 ">
+      <div className="py-14 text-5xl text-balance text-center font-semibold rounded-box place-items-center">
         Showreels
       </div>
       <div className="grid grid-cols-3 gap-20 m-16 items-center ">

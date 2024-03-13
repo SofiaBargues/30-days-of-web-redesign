@@ -13,7 +13,7 @@ export const Sweep = () => (
         provide a diverse, talented and reliable choice.
       </div>
       <div className="divider divider-horizontal"></div>
-      <div className="grid h-full flex-grow card  rounded-box place-items-center">
+      <div className="grid m-20  h-full flex-grow card  rounded-box place-items-center">
         <Swiper
           effect={"cards"}
           grabCursor={true}
