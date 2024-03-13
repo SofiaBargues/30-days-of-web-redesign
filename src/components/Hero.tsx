@@ -8,7 +8,7 @@ export const Hero = () => {
       className="hero  min-h-screen"
       style={{
         backgroundImage:
-          "url(https://whitelionhotelseaford.co.uk/wp-content/uploads/HN1_1571_HDR-1024x683.jpg)",
+          "url(https://lh3.googleusercontent.com/p/AF1QipNrAOnSTv8CLFAMJ-I5qRDCNM5vFK077UMUlTxN=s680-w680-h510)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
