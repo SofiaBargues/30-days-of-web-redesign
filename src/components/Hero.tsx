@@ -38,12 +38,12 @@ export const Hero = () => {
           <div>
             <div>
               <input
-                className="input input-bordered  text-slate-700 join-item"
+                className="input  text-slate-700 join-item"
                 placeholder="Date"
               />
             </div>
           </div>
-          <select className="select select-bordered text-slate-700 join-item">
+          <select className="select select-bordered-none text-slate-700 join-item">
             <option disabled selected>
               Room
             </option>
@@ -51,13 +51,8 @@ export const Hero = () => {
             <option>Family Room</option>
             <option>Single Room, With Ensuite</option>
           </select>
-          <div className="indicator">
-            <button className="btn join-item">Search</button>
-          </div>
-          <input
-            className="input input-bordered join-item"
-            placeholder="Email"
-          />
+          <div className="indicator"></div>
+          <input className="input  join-item" placeholder="Email" />
           <button className="btn join-item rounded-r-full">Send</button>
         </div>
       </div>

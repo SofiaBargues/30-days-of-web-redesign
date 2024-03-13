@@ -4,9 +4,8 @@ export const Squares = () => (
   <section>
     <div className=" ">
       <div className="grid grid-cols-1 gap-6">
-        <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
+        {/* <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <div className="relative group">
-            {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
               className="btn btn-lg  btn-ghost text-4xl  btn-secondary"
               onClick={() => document.getElementById("my_modal_1").showModal()}
@@ -28,7 +27,7 @@ export const Squares = () => (
               </form>
             </dialog>
           </div>
-        </figure>
+        </figure> */}
 
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <div className="relative group">
@@ -39,15 +38,17 @@ export const Squares = () => (
             >
               🔎
             </button>
-            <dialog id="my_modal_2" className="modal text-secondary p-20">
+            <dialog id="my_modal_2" className="modal p-20">
               <div className="">
-                <div className="card w-auto text-center m-10 bg-base-100 shadow-md image-full">
+                <div className="card pt-10  bg-neutral-200 shadow-md ">
                   <figure>
                     <img src="http://www.girlguiding-heartsease.org.uk/uploads/4/0/8/9/40899669/published/output-3.png?1679330491" />
                   </figure>
-                  <div className="card-body gap-32">
-                    <h2 className="card-title mt-11 text-5xl ">About Us</h2>
-                    <p className="text-xl">
+                  <div className="card-body  text-center gap-32">
+                    <h2 className="card-title  text-neutral text-5xl ">
+                      About Us
+                    </h2>
+                    <p className="text-xl text-neutral ">
                       As well as our farming responsibilities we all hove our
                       own diversifications. Donald and Callum do various
                       creative and structural building projects. Glenn has his
