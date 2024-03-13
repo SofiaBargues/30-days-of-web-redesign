@@ -1,3 +1,4 @@
+import { restElement } from "@babel/types";
 import { discount, robot } from "../assets";
 import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
@@ -30,7 +31,7 @@ export const Hero = () => {
           </div>
 
           <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow h-96 card  rounded-box place-items-center">
+          <div className="grid flex-grow h-96 card rounded-box place-items-center">
             <Squares />
           </div>
         </div>
@@ -58,7 +59,8 @@ export const Hero = () => {
             type="email"
             placeholder="Email"
           />
-          <button className="btn join-item rounded-r-full">Send</button>
+
+          <button className="btn join-item rounded-full">Send</button>
         </div>
       </div>
     </div>
