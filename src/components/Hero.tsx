@@ -45,22 +45,24 @@ export const Hero = () => {
               />
             </div>
           </div>
-          <select className="select   join-item">
-            <option disabled selected>
-              Campers
-            </option>
-            <option>10 to 20</option>
-            <option>20 to 40</option>
-            <option>40 to 50</option>
-          </select>
-          <div className="indicator"></div>
-          <input
-            className="input  join-item"
-            type="email"
-            placeholder="Email"
-          />
+          <form>
+            <select className="select   join-item">
+              <option disabled selected>
+                Campers
+              </option>
+              <option>10 to 20</option>
+              <option>20 to 40</option>
+              <option>40 to 50</option>
+            </select>
+            <div className="indicator"></div>
+            <input
+              className="input  join-item"
+              type="email"
+              placeholder="Email"
+            />
 
-          <button className="btn join-item rounded-full">Send</button>
+            <button className="btn join-item rounded-full">Send</button>
+          </form>
         </div>
       </div>
     </div>
