@@ -21,8 +21,8 @@ export const Video = () => {
           </span>
         </h2>
         <p className="mb-5 text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          BBA maintains a small, select list of actors including industry award
+          winners and emerging talent of excellence.
         </p>
         <div className="flex items-center md:justify-center">
           <a

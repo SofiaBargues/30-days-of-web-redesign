@@ -2,27 +2,27 @@
 
 export const Squares = () => (
   <section>
-    <div className="c">
+    <div className="">
       <div className="  text-5xl text-balance text-center font-semibold rounded-box place-items-center">
         Showreels
       </div>
-      <div className="grid h grid-cols-3 gap-20 m-16 items-center ">
-        <figure className="relative max-w-sm  transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
+      <div className="grid grid-cols-3 gap-20 m-16 items-center ">
+        <div className=" transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
           <iframe
-            width="415"
-            height="233"
+            width="200"
+            height="200"
             src="https://www.youtube.com/embed/droRL1zsUrw"
             title="BBshowreel120919AMC"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </figure>
+        </div>
 
         <figure className="relative max-w-sm  transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <iframe
-            width="264"
-            height="223"
+            width="200"
+            height="200"
             src="https://www.youtube.com/embed/jsO8_DcqRVI"
             title="TV &amp; Film work from Ch&#39;Lu ( FKA Camilla Mathias)"
             frameborder="0"
@@ -33,7 +33,7 @@ export const Squares = () => (
 
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <iframe
-            width="269"
+            width="200"
             height="200"
             src="https://www.youtube.com/embed/cp_0rqL2Xf8"
             title="Alan Blyton - Acting Showreel"
@@ -45,7 +45,7 @@ export const Squares = () => (
 
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <iframe
-            width="264"
+            width="200"
             height="200"
             src="https://www.youtube.com/embed/C3IOK57ky7g"
             title="Lee Malcolmson - Commercials Montage"
@@ -56,7 +56,7 @@ export const Squares = () => (
         </figure>
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <iframe
-            width="269"
+            width="200"
             height="200"
             src="https://www.youtube.com/embed/wbJqo3nIqLs"
             title="JEAN HEARD; 2010 actress showreel - drama"
@@ -67,7 +67,7 @@ export const Squares = () => (
         </figure>
         <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <iframe
-            width="269"
+            width="200"
             height="200"
             src="https://www.youtube.com/embed/xMu6RKNMuvg"
             title="Showreel"

@@ -2,7 +2,7 @@
 
 export const Stacks = () => (
   <section>
-    <div className="stats w-screen h-40 shadow ">
+    <div className="stats w-screen h-40  shadow ">
       <div className="stat">
         <div className="stat-figure text-secondary">
           <svg
@@ -19,9 +19,9 @@ export const Stacks = () => (
             ></path>
           </svg>
         </div>
-        <div className="stat-title">Downloads</div>
-        <div className="stat-value">31K</div>
-        <div className="stat-desc">Jan 1st - Feb 1st</div>
+        <div className="stat-title">Clients</div>
+        <div className="stat-value">30</div>
+        <div className="stat-desc">2023 - 2024</div>
       </div>
       <div className="stat">
         <div className="stat-figure text-secondary">
@@ -39,9 +39,9 @@ export const Stacks = () => (
             ></path>
           </svg>
         </div>
-        <div className="stat-title">New Users</div>
-        <div className="stat-value">4,200</div>
-        <div className="stat-desc">↗︎ 400 (22%)</div>
+        <div className="stat-title">Oportunities</div>
+        <div className="stat-value">+ 40 </div>
+        <div className="stat-desc">↗︎ Cast</div>
       </div>
       <div className="stat">
         <div className="stat-figure text-secondary">
@@ -59,9 +59,9 @@ export const Stacks = () => (
             ></path>
           </svg>
         </div>
-        <div className="stat-title">New Registers</div>
-        <div className="stat-value">1,200</div>
-        <div className="stat-desc">↘︎ 90 (14%)</div>
+        <div className="stat-title">New Projects</div>
+        <div className="stat-value">+ 200</div>
+        <div className="stat-desc"> </div>
       </div>
     </div>
   </section>
