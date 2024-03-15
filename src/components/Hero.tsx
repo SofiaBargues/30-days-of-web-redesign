@@ -22,48 +22,52 @@ export const Hero = () => {
                   Welcome to
                   <br /> HEARTSEAE
                 </h1>
-                <p className="mb-5 text-xl text-balance">
-                  Situated in its own secluded woodland grounds in the West
-                  Wickham area, Heartsease Girlguiding House is an ideal base.
-                </p>
               </div>
             </div>
           </div>
 
           <div className="divider lg:divider-horizontal"></div>
           <div className="grid flex-grow h-96 card rounded-box place-items-center">
-            <Squares />
-          </div>
-        </div>
-        <div className="join mt-20">
-          <div>
-            <div>
-              <input
-                type="date"
-                className="input  join-item"
-                placeholder="Date"
-              />
-            </div>
-          </div>
-          <form>
-            <select className="select   join-item">
-              <option disabled selected>
-                Campers
-              </option>
-              <option>10 to 20</option>
-              <option>20 to 40</option>
-              <option>40 to 50</option>
-            </select>
-            <div className="indicator"></div>
-            <input
-              className="input  join-item"
-              type="email"
-              placeholder="Email"
-            />
+            <p className="mb-5 text-xl text-balance">
+              Situated in its own secluded woodland grounds in the West Wickham
+              area, Heartsease Girlguiding House is an ideal base.
+            </p>{" "}
+            <button
+              className="btn  btn-lg"
+              onClick={() => document.getElementById("my_modal_4").showModal()}
+            >
+              Book
+            </button>
+            <dialog id="my_modal_4" className="modal">
+              <div className="modal-box w-11/12 max-w-5xl">
+                <h3 className="font-bold text-lg">Hello, le!</h3>
+                <p className="py-4">Click the button below to close</p>
+                <form className="indicator gap-6">
+                  <div></div>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input w-full max-w-xs"
+                  />
+                  <input
+                    className="input  join-item"
+                    type="email"
+                    placeholder="Email"
+                  />
+                </form>
 
-            <button className="btn join-item rounded-full">Send</button>
-          </form>
+                <div className="modal-action">
+                  <form method="dialog">
+                    {/* if there is a button, it will close the modal */}
+                    <button className="btn bg-neutral">Send</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
         </div>
+
+        {/* You can open the modal using document.getElementById('ID').showModal() method */}
       </div>
     </div>
   );
