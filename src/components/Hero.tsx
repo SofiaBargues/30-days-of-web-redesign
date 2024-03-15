@@ -16,8 +16,8 @@ export const Hero = () => {
       <div>
         <div className="flex w-full">
           <div className="grid flex-grow  h-96 card rounded-box place-items-center">
-            <div className="flex flex-col content-between text-center text-neutral-content">
-              <div className="max-w-md ">
+            <div className="flex flex-col content-between text-balance text-neutral-content">
+              <div className="max-w-sm ">
                 <h1 className=" font-extralight mb-14  text-7xl ">
                   Welcome to
                   <br /> HEARTSEAE
