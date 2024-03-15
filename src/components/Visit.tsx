@@ -1,62 +1,18 @@
 // import { logo } from "../assets";
 
 export const Visit = () => (
-  <div className="carousel w-full">
-    <div id="slide1" className="carousel-item relative w-full">
-      <img
-        src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-        className="w-full"
-      />
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide4" className="btn btn-circle">
-          ❮
-        </a>
-        <a href="#slide2" className="btn btn-circle">
-          ❯
-        </a>
-      </div>
-    </div>
-    <div id="slide2" className="carousel-item relative w-full">
-      <img
-        src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-        className="w-full"
-      />
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide1" className="btn btn-circle">
-          ❮
-        </a>
-        <a href="#slide3" className="btn btn-circle">
-          ❯
-        </a>
-      </div>
-    </div>
-    <div id="slide3" className="carousel-item relative w-full">
-      <img
-        src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-        className="w-full"
-      />
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide2" className="btn btn-circle">
-          ❮
-        </a>
-        <a href="#slide4" className="btn btn-circle">
-          ❯
-        </a>
-      </div>
-    </div>
-    <div id="slide4" className="carousel-item relative w-full">
-      <img
-        src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-        className="w-full"
-      />
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide3" className="btn btn-circle">
-          ❮
-        </a>
-        <a href="#slide1" className="btn btn-circle">
-          ❯
-        </a>
-      </div>
-    </div>
+  <div
+    className="
+  "
+  >
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26009.417991541537!2d-4.41811617638055!3d53.00756832416523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4865bc557f3f4ea1%3A0xff433a6df8a64be9!2sAberafon%20Camping%20and%20Caravan%20Site!5e0!3m2!1sen!2suk!4v1710524120307!5m2!1sen!2suk"
+      width={600}
+      height={450}
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
   </div>
 );
