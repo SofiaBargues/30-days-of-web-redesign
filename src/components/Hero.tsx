@@ -14,13 +14,13 @@ export const Hero = () => {
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
               <h1
-                className="mb-5 text-5xl text-balance text-black font-extrabold
+                className="mb-5 text-5xl text-balance text-white font-extrabold
             
             "
               >
                 Representing the exceptional
               </h1>
-              <p className="mb-5  text-black font-bold text-balance">
+              <p className="mb-5  text-white font-bold text-balance">
                 We are a talent agency specialised in the personal
                 representation of actors and creatives within the theatre,
                 television and film industry.
