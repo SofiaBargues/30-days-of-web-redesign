@@ -3,7 +3,7 @@ import { discount, robot } from "../assets";
 import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
 
-export const Hero = () => {
+export const ScondHero = () => {
   return (
     <div
       className="hero min-h-screen"
