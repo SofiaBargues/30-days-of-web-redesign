@@ -17,8 +17,8 @@ function App() {
         {/* <Date /> */}
         <Circles />
         <Proof />
-        <Squares />
-        <Visit />
+        {/* <Squares /> */}
+        {/* <Visit /> */}
       </main>
       <Footer />
     </div>
