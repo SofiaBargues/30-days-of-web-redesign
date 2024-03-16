@@ -3,9 +3,9 @@
 export const Circles = () => (
   <section>
     <div>
-      <div className="h-screen py-10 px-6 ">
+      <div className="h-screen px-6 ">
         <div className="grid h-screen grid-cols-3 gap-4">
-          <div className="dropdown dropdown-hover bg-primary text-slate-100  my-10 relative max-w-sm transition-all duration-300 ">
+          <div className="dropdown dropdown-hover bg-primary text-slate-100   relative max-w-sm transition-all duration-300 ">
             <div className="card-body ">
               <h2 className="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -19,7 +19,7 @@ export const Circles = () => (
               <p>If a dog chews shoes whose shoes does he choose?</p>
             </div>
           </div>
-          <div className="dropdown dropdown-hover  bg-primary text-slate-100 my-10 relative max-w-sm transition-all duration-300 ">
+          <div className="dropdown dropdown-hover  bg-primary text-slate-100 relative max-w-sm transition-all duration-300 ">
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -35,7 +35,7 @@ export const Circles = () => (
               </div>
             </figure>
           </div>
-          <div className="dropdown dropdown-hover  bg-primary text-slate-100 my-10 relative max-w-sm transition-all duration-300">
+          <div className="dropdown dropdown-hover  bg-primary text-slate-100  relative max-w-sm transition-all duration-300">
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>

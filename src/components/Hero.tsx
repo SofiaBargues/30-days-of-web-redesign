@@ -7,34 +7,29 @@ import { Proof } from "./Proof";
 
 export const Hero = () => {
   return (
-    <div
-    // className="hero "
-    // style={{
-    //   backgroundImage:
-    //     "url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/19/7c/a1/aberafon-camp-site.jpg)",
-    // }}
-    >
-      <div className="hero-overlay bg-opacity-60 "></div>
+    <div className="hero">
       <div>
-        <div className="flex w-full">
-          <div className="grid flex-grow   h-96 card rounded-box place-items-center">
-            <div className="flex flex-col content-between text-center text-neutral-content">
-              <div className="max-w-md mx-20 "></div>
-            </div>
+        <div className="flex bg-slate-50">
+          <div className="grid flex-grow mx-10 place-items-center">
+            <img
+              className="w-full  h-auto"
+              src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2016/03/47.jpg"
+              alt="Placeholder"
+            />
           </div>
 
-          <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow my-72  card rounded-box place-items-center">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-              We invest in the world’s potential
+          {/* <div className="divider lg:divider-horizontal"></div> */}
+          <div className="grid flex-grow my-64 w-96 place-items-center gap-2">
+            <h1 className="mb-4 text-4xl text-balance text-left font-extrabold tracking-tight  text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              HARTLEPOOL GYMNASTICS CLUB
             </h1>
-            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-              Here at Flowbite we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
+            <p className=" text-lg text-balance font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+              Hartlepool Gymnastics Club was founded in July 2006 and has since
+              grown to now have over 400 members. We cater for all ages and
+              abilities through various classes.
             </p>
-
             <button
-              className="btn  btn-lg"
+              className="btn btn-lg"
               onClick={() => document.getElementById("my_modal_4").showModal()}
             >
               Book
