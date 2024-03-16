@@ -7,7 +7,7 @@ export const Circles = () => (
         <div className="grid  grid-cols-3 gap-4">
           <div className="dropdown dropdown-hover bg-primary text-slate-100   relative max-w-sm transition-all duration-300 ">
             <div className="card card-body ">
-              <h2 className=" card-title">Pre-School Classes</h2>
+              <h2 className=" card-title m-6">Pre-School Classes</h2>
             </div>
             <img
               src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2021/07/General-temp-pic.jpeg"
@@ -24,7 +24,7 @@ export const Circles = () => (
           </div>
           <div className="dropdown dropdown-hover  bg-primary text-slate-100 relative max-w-sm transition-all duration-300 ">
             <div className="card-body">
-              <h2 className="card-title">Recreational Classes</h2>
+              <h2 className="card-title m-6">Recreational Classes</h2>
             </div>
             <figure>
               <img
@@ -42,7 +42,7 @@ export const Circles = () => (
           </div>
           <div className="  bg-primary text-slate-100  relative max-w-sm transition-all duration-300">
             <div className="card-body">
-              <h2 className="card-title">General Gym Classes</h2>
+              <h2 className="card-title m-6">General Gym Classes</h2>
             </div>
             <figure>
               <img
