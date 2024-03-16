@@ -1,3 +1,4 @@
+import { Circles } from "./components/Circles";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
         {/* <Date /> */}
         <Proof />
         <Squares />
+        <Circles />
         <Visit />
       </main>
       <Footer />
