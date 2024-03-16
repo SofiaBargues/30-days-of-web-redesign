@@ -39,22 +39,30 @@ export const Hero = () => {
               Book
             </button>
             <dialog id="my_modal_4" className="modal">
-              <div className="modal-box w-11/12 max-w-5xl">
-                <h3 className="font-bold text-lg">Hello, le!</h3>
-                <p className="py-4">Click the button below to close</p>
-                <form className="indicator gap-6">
-                  <div></div>
-                  <input
-                    type="text"
-                    placeholder="Type here"
-                    className="input w-full max-w-xs"
-                  />
-                  <input
-                    className="input  join-item"
-                    type="email"
-                    placeholder="Email"
-                  />
-                </form>
+              <div className="modal-box w-11/12 max-w-5xl  bg-base-content">
+                <div className="flex w-full">
+                  <div className="grid h-20 flex-grow text-black rounded-box place-items-center">
+                    <h3 className="font-bold text-lg">Hello Camper!</h3>
+                    <p className="py-4">Tell us about your next vacation</p>
+                  </div>
+
+                  <div className="grid h-20 flex-grow place-items-center">
+                    <form className="indicator m-6 ">
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Type here"
+                          className="input w-full max-w-xs mb-6"
+                        />
+                        <input
+                          className="input  join-item"
+                          type="email"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
 
                 <div className="modal-action">
                   <form method="dialog">
