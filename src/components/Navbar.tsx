@@ -13,40 +13,24 @@ export const Navbar = () => {
       </div>
 
       <div className="flex-1">
-        <a className="text-neutral-content text-xl"></a>
+        <a className="btn btn-lg btn-ghost text-xl">Camping</a>
       </div>
-      <div className="flex-none text-neutral-content">
-        <div className="indicator">
-          <span className="indicator-item badge badge-secondary ">new</span>
-          <button className=" btn btn-sm hover:bg-neutral border-none  join-item bg-transparent text-neutral-content ">
-            <a>Business</a>
-          </button>
-        </div>
-        <ul className="menu  menu-horizontal px-1">
-          <li></li>
-          <li>
-            <details>
-              <summary>Camps</summary>
-              <ul className="p-2 bg-transparent">
-                <li>
-                  <a>Information</a>
-                </li>
-                <li>
-                  <a>Rooms</a>
-                </li>
-                <li>
-                  <a>Menu</a>
-                </li>
-                <li>
-                  <a>Opening</a>
-                </li>
-                <li>
-                  <a>Contact Us</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-        </ul>
+      <div className="flex-none">
+        <button className="btn btn-square btn-ghost">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-5 h-5 stroke-current"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+            ></path>
+          </svg>
+        </button>
       </div>
     </div>
   );

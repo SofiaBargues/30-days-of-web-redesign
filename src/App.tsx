@@ -13,9 +13,9 @@ function App() {
         <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        <Date />
-        <Squares />
+        {/* <Date /> */}
         <Proof />
+        <Squares />
         <Visit />
       </main>
       <Footer />

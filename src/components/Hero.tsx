@@ -12,12 +12,12 @@ export const Hero = () => {
           "url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/19/7c/a1/aberafon-camp-site.jpg)",
       }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-overlay bg-opacity-60 "></div>
       <div>
         <div className="flex w-full">
-          <div className="grid flex-grow  h-96 card rounded-box place-items-center">
+          <div className="grid flex-grow   h-96 card rounded-box place-items-center">
             <div className="flex flex-col content-between text-center text-neutral-content">
-              <div className="max-w-md ">
+              <div className="max-w-md mx-20 ">
                 <h1 className=" font-extralight mb-14  text-7xl ">
                   Welcome to
                   <br /> HEARTSEAE
@@ -27,8 +27,8 @@ export const Hero = () => {
           </div>
 
           <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow h-96 card rounded-box place-items-center">
-            <p className="mb-5 text-xl text-balance">
+          <div className="grid flex-grow my-10 card rounded-box place-items-center">
+            <p className=" text-xl text-balance">
               Situated in its own secluded woodland grounds in the West Wickham
               area, Heartsease Girlguiding House is an ideal base.
             </p>{" "}
