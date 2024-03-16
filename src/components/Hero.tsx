@@ -7,9 +7,9 @@ import { Proof } from "./Proof";
 
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero h-[930px] py-10">
       <div>
-        <div className="flex bg-slate-50">
+        <div className="flex ">
           <div className="grid flex-grow mx-10 place-items-center">
             <img
               className="w-full  h-auto"
@@ -19,17 +19,17 @@ export const Hero = () => {
           </div>
 
           {/* <div className="divider lg:divider-horizontal"></div> */}
-          <div className="grid flex-grow my-64 w-96 place-items-center gap-2">
-            <h1 className="mb-4 text-4xl text-balance text-left font-extrabold tracking-tight  text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <div className="flex flex-grow my-64 w-96 items-end flex-col gap-6 pl-10">
+            <h1 className="mb-4 text-4xl text-balance text-right font-extrabold tracking-tight  text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               HARTLEPOOL GYMNASTICS CLUB
             </h1>
-            <p className=" text-lg text-balance font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+            <p className=" text-lg text-right font-normal text-gray-500 lg:text-xl  dark:text-gray-200">
               Hartlepool Gymnastics Club was founded in July 2006 and has since
               grown to now have over 400 members. We cater for all ages and
               abilities through various classes.
             </p>
             <button
-              className="btn btn-lg"
+              className="btn btn-lg  btn-info"
               onClick={() => document.getElementById("my_modal_4").showModal()}
             >
               Book
