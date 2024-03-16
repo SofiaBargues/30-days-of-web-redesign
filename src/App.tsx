@@ -15,9 +15,9 @@ function App() {
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
         {/* <Date /> */}
+        <Circles />
         <Proof />
         <Squares />
-        <Circles />
         <Visit />
       </main>
       <Footer />

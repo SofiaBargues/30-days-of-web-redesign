@@ -2,7 +2,7 @@
 
 export const Circles = () => (
   <section>
-    <div className="h-400 py-10 px-6">
+    <div className="h-400 py-10 px-6 ">
       <div className="grid grid-cols-3 gap-4">
         <div className="dropdown dropdown-hover relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
           <button

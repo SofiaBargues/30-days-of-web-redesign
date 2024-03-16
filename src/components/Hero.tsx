@@ -2,6 +2,7 @@ import { restElement } from "@babel/types";
 import { discount, robot } from "../assets";
 import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
+import { Circles } from "./Circles";
 
 export const Hero = () => {
   return (
