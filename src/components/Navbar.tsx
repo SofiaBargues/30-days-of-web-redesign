@@ -6,15 +6,17 @@ import { Squares } from "./Scuares";
 
 export const Navbar = () => {
   return (
-    <div className="p-10   navbar bg-white max-h-20   absolute">
-      <div className="bg-transparent card text-center ">
+    <div className="p-10  navbar bg- max-h-20   ">
+      <div className="bg-transparent card text-center h-10">
         <figure className="h-20 w-20">
-          <img src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2021/07/cropped-HGC-Logo.png" />
+          <img src="https://www.pngitem.com/pimgs/m/329-3291801_cat-png-download-png-image-with-transparent-background.png" />
         </figure>
         {/* <div className="card-body gap-32"></div> */}
       </div>
 
-      <div className="flex-1"></div>
+      <div className="flex-1">
+        <a className="btn btn-lg btn-ghost text-xl">Tigi-tabu Cattery</a>
+      </div>
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
           <svg

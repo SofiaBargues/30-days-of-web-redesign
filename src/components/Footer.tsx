@@ -2,7 +2,7 @@
 import { navLinks } from "../constants/data";
 
 export const Footer = () => (
-  <footer className="footer  justify-between px-8 py-4 bg-neutral text-neutral-content">
+  <footer className="footer  justify-between px-8 py-4  text-neutral-content">
     <aside className="items-center grid-flow-col">
       <svg
         width="36"

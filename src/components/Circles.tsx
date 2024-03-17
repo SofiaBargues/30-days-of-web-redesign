@@ -2,63 +2,60 @@
 
 export const Circles = () => (
   <section>
-    <div>
-      <div className="h-auto px-6  ">
-        <div className="grid  grid-cols-3 gap-4">
-          <div className="dropdown dropdown-hover bg-primary text-slate-100   relative max-w-sm transition-all duration-300 ">
-            <div className="card card-body ">
-              <h2 className=" card-title m-6">Pre-School Classes</h2>
+    <div className="bg-secondary">
+      <div className="">
+        <div className="grid grid-cols-1 gap-10 p-20">
+          <div className="card bg-white text-neutral text-center shadow-2xl">
+            <div className="card card-body">
+              <h2 className="text-2xl font-bold card-title ">
+                SUPERB FELINE ACCOMMADATION
+              </h2>
             </div>
-            <img
-              src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2021/07/General-temp-pic.jpeg"
-              alt="Shoes"
-            />
-            <div className="card-body ">
+            <figure className="h-[600px] overflow-hidden">
+              <img
+                src="https://www.tigi-tabu-cattery.co.uk/s/cc_images/cache_2496786960.JPG"
+                alt="Shoes"
+              />
+            </figure>
+            <div className="card-body">
               <p>
-                Classes are open to any toddler from crawling to 4 years.
-                Children are introduced to music, basic rhythm and physical
-                development. Children are encouraged to explore the gym and to
-                discover and develop their physical abilities.
+                igi-tabu's is a family run cattery set in a quiet village
+                located near Luton Airport and just 15 minutes from the M1.Close
+                to Leighton Buzzard we offer superb feline accommadation in a
+                safe and loving enviroment,we pride ourselves in giving your cat
+                the love and attention they require while away from home.
               </p>
             </div>
           </div>
-          <div className="dropdown dropdown-hover  bg-primary text-slate-100 relative max-w-sm transition-all duration-300 ">
-            <div className="card-body">
-              <h2 className="card-title m-6">Recreational Classes</h2>
+          <div className="card  bg-white text-neutral shadow-2xl">
+            <div className=" card card-body ot">
+              <h2 className="text-2xl font-bold card-title "> FIVE STAR </h2>
             </div>
-            <figure>
+            {/* <div className="w-full h--[400"></div> */}
+            <figure className="h-[600px] overflow-hidden">
               <img
-                src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2021/07/Temp-Rec-pic.jpeg"
+                src="https://www.tigi-tabu-cattery.co.uk/s/cc_images/cache_2496786964.jpeg"
                 alt="Shoes"
               />
-              <div className="card-body ">
-                <p>
-                  These classes are based on the British Gymnastics awards
-                  scheme. Class times are age-dependent. Classes are on
-                  Thursday, Friday and Saturday.{" "}
-                </p>
-              </div>
             </figure>
-          </div>
-          <div className="  bg-primary text-slate-100  relative max-w-sm transition-all duration-300">
-            <div className="card-body">
-              <h2 className="card-title m-6">General Gym Classes</h2>
+            <div className="card-body ">
+              <p>
+                Rating from the central bedfordshire council animal welfare unit
+                .<li> We have temperature controlled pens</li>
+                <li>
+                  {" "}
+                  We can cater for cats on special diets or medication
+                </li>{" "}
+                <li>
+                  {" "}
+                  We supply toys but its good to bring something that your cat
+                  is familiar with{" "}
+                </li>{" "}
+                But most of all we supply the love and affection your cat needs
+                that will give you the peace of mind to relax and enjoy your
+                holiday knowing there enjoying there's
+              </p>
             </div>
-            <figure>
-              <img
-                src="http://www.hartlepoolgym.co.uk/wp-content/uploads/2021/07/Pre-School-temp.jpeg"
-                alt="Shoes"
-              />
-              <div className="card-body ">
-                <p>
-                  These gymnasts train twice a week and work towards regional
-                  level competitions. General gymnastics compete in a diverse
-                  range of competitions. They compete in floor and vault,
-                  4-piece competitions, tumbling, pink events and various other
-                  competitions.
-                </p>
-              </div>
-            </figure>
           </div>
         </div>
       </div>
