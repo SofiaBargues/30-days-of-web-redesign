@@ -32,7 +32,7 @@ export const Hero = () => {
               className="btn btn-lg  btn-info"
               onClick={() => document.getElementById("my_modal_4").showModal()}
             >
-              Book
+              Start
             </button>
             <dialog id="my_modal_4" className="modal">
               <form className="w-full max-w-md mx-auto">
