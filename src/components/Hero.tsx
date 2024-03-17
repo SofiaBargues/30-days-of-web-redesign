@@ -7,7 +7,7 @@ import { Proof } from "./Proof";
 
 export const Hero = () => {
   return (
-    <div className="hero my-32 bg-white container m-auto">
+    <div className="hero my-44 bg-white container m-auto">
       <div className="hero-content gap-0 m-0 max-w-full items-start flex-col sm:flex-row-reverse">
         <div className="w-5/12">
           <img className="h-auto max-w-full rounded-lg" src={casa} alt="" />
