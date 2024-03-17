@@ -27,8 +27,8 @@ export const Hero = () => {
           </div>
 
           <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow my-10 card rounded-box place-items-center">
-            <p className=" text-xl text-balance">
+          <div className="flex flex-col gap-10 justify-center flex-grow card rounded-box place-items-center ">
+            <p className=" text-xl text-balance w-full text-center">
               Situated in its own secluded woodland grounds in the West Wickham
               area, Heartsease Girlguiding House is an ideal base.
             </p>{" "}
@@ -51,7 +51,7 @@ export const Hero = () => {
                       <div>
                         <input
                           type="text"
-                          placeholder="Type here"
+                          placeholder="Your question"
                           className="input w-full max-w-xs mb-6"
                         />
                         <input
