@@ -20,12 +20,12 @@ export const Hero = () => {
           <h1 className="mb-5 text-6xl text-balance font-bold">
             Holidays? Not problem!
           </h1>
-          <p className="mb-5">
+          <p className="mb-5 text-xl">
             We offer superb feline accommadation in a safe and loving
             enviroment,we pride ourselves in giving your cat the love and
             attention they require while away from home.
           </p>
-          <button className="btn btn-neutral  text-white">Book</button>
+          <button className="btn btn-lg btn-neutral  text-white">Book</button>
         </div>
       </div>
     </div>

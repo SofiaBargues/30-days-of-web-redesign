@@ -17,9 +17,9 @@ export const Circles = () => (
                 alt="Shoes"
               />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-xl">
               <p>
-                igi-tabu's is a family run cattery set in a quiet village
+                Tigi-tabu's is a family run cattery set in a quiet village
                 located near Luton Airport and just 15 minutes from the M1.Close
                 to Leighton Buzzard we offer superb feline accommadation in a
                 safe and loving enviroment,we pride ourselves in giving your cat
@@ -38,7 +38,7 @@ export const Circles = () => (
                 alt="Shoes"
               />
             </figure>
-            <div className="card-body ">
+            <div className="card-body text-xl">
               <p>
                 Rating from the central bedfordshire council animal welfare unit
                 .<li> We have temperature controlled pens</li>
