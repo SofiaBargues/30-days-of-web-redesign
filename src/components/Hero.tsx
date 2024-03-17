@@ -1,5 +1,5 @@
 import { restElement } from "@babel/types";
-import { discount, robot } from "../assets";
+import { casa } from "../assets";
 import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
 import { Circles } from "./Circles";
@@ -9,54 +9,13 @@ export const Hero = () => {
   return (
     <div className="hero min-h-screen bg-white">
       <div className="hero-content flex-col sm:flex-row-reverse">
-        <div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="w-2/5">
+          <div className="grid grid-cols-2 md:grid-cols-1 gap-4">
             <div className="grid gap-4">
               <div>
                 <img
                   className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-                  alt=""
-                />
-              </div>{" "}
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+                  src={casa}
                   alt=""
                 />
               </div>
@@ -64,16 +23,18 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+        <div className="w-3/5">
+          <h1 className="text-5xl font-bold">
+            Close deals in less time and increase you income
+          </h1>
+          <p className="py-6 text-gray-500">
+            Boost your career with our AI-powered marketing tools
+            <br /> for real estate agents and brokers.
           </p>
           <button className="btn text-white rounded-sm btn-primary">
-            Get Started
+            Start earning more now{" "}
           </button>
+          <p className="py-2 text-gray-400">Start earning more now</p>
           <div className="flex my-20  gap-10">
             <div className="hero-overlay bg-opacity-60"></div>
             <img
