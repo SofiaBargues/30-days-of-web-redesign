@@ -7,23 +7,12 @@ import { Proof } from "./Proof";
 
 export const Hero = () => {
   return (
-    <div className="hero min-h-screen bg-white">
-      <div className="hero-content m-20 flex-col sm:flex-row-reverse">
-        <div className="w-2/5">
-          <div className="grid grid-cols-2 md:grid-cols-1 gap-4">
-            <div className="grid gap-4">
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src={casa}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+    <div className="hero my-32 bg-white container m-auto">
+      <div className="hero-content gap-0 m-0 max-w-full items-start flex-col sm:flex-row-reverse">
+        <div className="w-5/12">
+          <img className="h-auto max-w-full rounded-lg" src={casa} alt="" />
         </div>
-
-        <div className="w-3/5">
+        <div className="w-7/12">
           <h1 className="text-5xl font-bold">
             Close deals in less time and increase you income
           </h1>
@@ -34,11 +23,11 @@ export const Hero = () => {
           <button className="btn text-white rounded-sm btn-primary">
             Start earning more now{" "}
           </button>
-          <p className="py-2 text-xs text-gray-400">
+          <p className="py-2 text-xs  text-gray-400">
             No credit card required - 15 generations for free{" "}
           </p>
-          <p className=" text-sm text-gray-400">Used by people on</p>
-          <div className=" flex flex-row-reverse  items-center my-10 ">
+          <p className=" text-sm mt-10 text-gray-400">Used by people on</p>
+          <div className=" flex flex-row-reverse  items-center  ">
             <div className="hero-overlay bg-opacity-60 "></div>
             <img
               alt="coldwell banker"

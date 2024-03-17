@@ -12,8 +12,8 @@ function App() {
     <div>
       <main>
         <Navbar />
-        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         {/* <Squares /> */}
         {/* <Date /> */}
         {/* <Circles /> */}
