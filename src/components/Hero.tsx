@@ -20,7 +20,7 @@ export const Hero = () => {
               <div className="max-w-md mx-20 ">
                 <h1 className=" font-extralight mb-14  text-7xl ">
                   Welcome to
-                  <br /> HEARTSEAE
+                  <br /> Aberafon
                 </h1>
               </div>
             </div>
