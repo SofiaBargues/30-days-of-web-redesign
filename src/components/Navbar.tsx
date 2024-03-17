@@ -6,7 +6,7 @@ import { Squares } from "./Scuares";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar px-20 bg-base-100">
       <div className="navbar-start">
         <div className="m-6 ">
           <div className="w-8 rounded-full">
