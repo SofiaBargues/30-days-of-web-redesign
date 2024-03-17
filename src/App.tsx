@@ -14,13 +14,13 @@ function App() {
         <Navbar />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        <Squares />
+        {/* <Squares /> */}
         {/* <Date /> */}
-        <Circles />
+        {/* <Circles /> */}
         {/* <Proof /> */}
-        <Visit />
+        {/* <Visit /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
