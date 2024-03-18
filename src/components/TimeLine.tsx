@@ -8,41 +8,44 @@ export const TimeLine = () => (
     <ul className="steps p-10">
       <li
         data-content="1450"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         A pair of 15th century bell were cast. Neither bell bore an inscription.
       </li>
-      <li data-content="1552" className="step step-neutral text-xs">
+      <li
+        data-content="1552"
+        className="step step-neutral text-xs hover:step-primary"
+      >
         Record of 3 bells in the tower ("Item iij gret bells and ij smalle hand
         bells). [1]
       </li>
       <li
         data-content="1634"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         A bell was recast by Joseph Hatch.
       </li>
       <li
         data-content="1758"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         Record of 3 bells in the tower. [2]
       </li>
       <li
         data-content="1798"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         Record of 3 bells in the tower. [3]
       </li>
       <li
         data-content="1895"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         Bells rehung with new fittings in a new frame by Samuel B. Goslin.
       </li>
       <li
         data-content="1974"
-        className="step step-neutral text-xs text-balance"
+        className="step step-neutral text-xs text-balance hover:step-primary"
       >
         A recommendation was made for the 2 bells to be hung dead as they were
         unsafe to ring full circle. This never happened.
