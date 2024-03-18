@@ -15,7 +15,7 @@ export const Customers = () => (
           />
         </div>
       </div>
-      <h1 className="text-md font-serif font-semibold m-3">History</h1>
+      <h1 className="">Ann Birch</h1>
       <div className="rating rating-sm flex flex-row px-10 items-center ">
         <input
           type="radio"
@@ -37,7 +37,11 @@ export const Customers = () => (
           name="rating-6"
           className="mask mask-star-2 bg-orange-400"
         />
-        <input type="radio" name="rating-6" className="mask mask-star-2" />
+        <input
+          type="radio"
+          name="rating-6"
+          className="mask mask-star-2  bg-orange-300"
+        />
       </div>
     </div>
     <div className="flex m-10">
@@ -53,7 +57,7 @@ export const Customers = () => (
           />
         </div>
       </div>
-      <h1 className="text-md font-serif font-semibold m-3">History</h1>
+      <h1 className="">Timmy Perry</h1>
       <div className="rating rating-sm flex flex-row px-10 items-center ">
         <input
           type="radio"
@@ -75,7 +79,11 @@ export const Customers = () => (
           name="rating-6"
           className="mask mask-star-2 bg-orange-400"
         />
-        <input type="radio" name="rating-6" className="mask mask-star-2" />
+        <input
+          type="radio"
+          name="rating-6"
+          className="mask mask-star-2  bg-orange-400"
+        />
       </div>
     </div>
     <div className="flex m-10">
@@ -91,7 +99,7 @@ export const Customers = () => (
           />
         </div>
       </div>
-      <h1 className="text-md font-serif font-semibold m-3">History</h1>
+      <h1 className=" ">Kathy Hollick</h1>
       <div className="rating rating-sm flex flex-row px-10 items-center ">
         <input
           type="radio"
@@ -113,7 +121,11 @@ export const Customers = () => (
           name="rating-6"
           className="mask mask-star-2 bg-orange-400"
         />
-        <input type="radio" name="rating-6" className="mask mask-star-2" />
+        <input
+          type="radio"
+          name="rating-6"
+          className="mask mask-star-2  bg-orange-400"
+        />
       </div>
     </div>
   </div>
