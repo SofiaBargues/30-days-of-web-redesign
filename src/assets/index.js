@@ -1,3 +1,4 @@
 import airbnb from "./airbnb.png";
+import curch from "./curch.png";
 
-export { airbnb };
+export { airbnb,curch };

@@ -1,24 +1,15 @@
-import { Circles } from "./components/Circles";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
-import { Proof } from "./components/Proof";
-import { Squares } from "./components/Scuares";
-import { Visit } from "./components/Visit";
-import "flowbite";
+import { TimeLine } from "./components/TimeLine";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <main>
-        <Navbar />
-        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <Hero />
-        <Squares />
-        {/* <Date /> */}
-        <Circles />
-        {/* <Proof /> */}
-        <Visit />
+        <TimeLine />
       </main>
       <Footer />
     </div>
