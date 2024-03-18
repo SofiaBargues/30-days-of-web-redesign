@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Map } from "./components/Map";
 import { Navbar } from "./components/Navbar";
-import { TimeLine } from "./components/TimeLine";
+import { About, TimeLine } from "./components/About";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <Customers />
-        <TimeLine />
+        <About />
         <Map />
       </main>
       <Footer />

@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import { close, logo, curch } from "../assets";
 import { navLinks } from "../constants/data";
-import { Circles } from "./TimeLine";
+import { Circles } from "./About";
 import { Squares } from "./Scuares";
 
 export const Navbar = () => {

@@ -2,7 +2,7 @@ import { restElement } from "@babel/types";
 import { discount, robot } from "../assets";
 import { Navbar } from "./Navbar";
 import { Squares } from "./Scuares";
-import { Circles } from "./TimeLine";
+import { Circles } from "./About";
 import { Cards } from "./Card";
 
 export const Hero = () => {
