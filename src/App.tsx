@@ -16,7 +16,7 @@ function App() {
         <Hero />
         <Squares />
         {/* <Date /> */}
-        <Circles />
+        {/* <Circles /> */}
         {/* <Proof /> */}
         <Visit />
       </main>
