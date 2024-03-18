@@ -2,5 +2,9 @@
 import { navLinks } from "../constants/data";
 
 export const Footer = () => (
-  <div className="h-20 bg-slate-200"> this is the footer</div>
+  <footer className="footer footer-center p-4 bg-secondary">
+    <aside>
+      <p>Sofi 🌼 © 2024 - All right reserved by ACME Industries Ltd</p>
+    </aside>
+  </footer>
 );

@@ -6,7 +6,7 @@ import { Squares } from "./Scuares";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar p-7 bg-base-100">
       <div className="flex-1">
         <div className="w-40 rounded-full">
           <img alt="Tailwind CSS Navbar component" src={curch} />

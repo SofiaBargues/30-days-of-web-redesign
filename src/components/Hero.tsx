@@ -16,14 +16,17 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+        <div className="flex flex-col max-w-lg gap-10">
+          <h1 className="mb-5 text-white text-7xl font-bold">
+            St Mary Hinxhill
+          </h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Remote and peaceful Hinxhill is the archetypal country church.
+            Almost all dating from the 13th century, the narrow north aisle is a
+            typical give way – designed to be used as a processional space
+            without benches.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn m-20 btn-primary">Donate</button>
         </div>
       </div>
     </div>
