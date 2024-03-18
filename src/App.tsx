@@ -1,3 +1,4 @@
+import { Customers } from "./components/Customers";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Map } from "./components/Map";
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Customers />
         <TimeLine />
         <Map />
       </main>
