@@ -5,6 +5,7 @@ import { Place } from "./components/Place";
 import { Availability } from "./components/Availability";
 import { Navbar } from "./components/Navbar";
 import { Discount } from "./components/Discount";
+import { Photos } from "./components/Photos";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <Amenities />
+        {/* <Photos /> */}
         {/* <Discount /> */}
         <Place />
         <Availability />
