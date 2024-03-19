@@ -16,12 +16,12 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="flex gap-10 items-center">
+        <div className="flex gap-10  items-center">
           <div className="flex flex-col max-w-md gap-10">
-            <h1 className="mb-5 text-white text-7xl font-bold text-balance">
-              Dolly Plum Cottage
+            <h1 className=" text-white text-7xl font-extralight text-balance">
+              Dolly Plum
             </h1>
-            <p className="mb-5">
+            <p className="mb-5 m-6">
               Dolly Plum Cottage is a detached former agricultural building that
               has been converted into a delightful 1 bed cottage and is ideally
               situated to explore the many attractions located in this beautiful
@@ -29,7 +29,7 @@ export const Hero = () => {
             </p>
           </div>
           <button className="btn btn-lg m-20 btn-primary" src="Availability">
-            Book
+            Contact Us
           </button>
         </div>
       </div>
