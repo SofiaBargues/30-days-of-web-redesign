@@ -1,6 +1,6 @@
 // import { logo } from "../assets";
 
-export const Customers = () => (
+export const CustomersSection = () => (
   <div className="grid grid-cols-3  text-right">
     <div className="flex m-10">
       <div
