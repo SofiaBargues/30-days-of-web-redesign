@@ -1,9 +1,10 @@
-import { Customers } from "./components/Customers";
+import { Amenities } from "./components/Amenities";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { Map } from "./components/Map";
+import { Place } from "./components/Place";
+import { Availability } from "./components/Availability";
 import { Navbar } from "./components/Navbar";
-import { About, TimeLine } from "./components/About";
+import { Discount } from "./components/Discount";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Customers />
-        <About />
-        <Map />
+        <Amenities />
+        <Discount />
+        <Place />
+        <Availability />
       </main>
       <Footer />
     </div>

@@ -8,10 +8,10 @@ import { Cards } from "./Card";
 export const Hero = () => {
   return (
     <div
-      className="hero h-[700px]"
+      className="hero h-[550px]"
       style={{
         backgroundImage:
-          "url(https://www.ovingvillagehall.com/uploads/3/0/9/2/30928497/gfd_orig.jpg)",
+          "url(https://images.trvl-media.com/lodging/34000000/33590000/33585100/33585087/758c27d2.jpg?impolicy=resizecrop&rw=1200&ra=fit)",
       }}
     >
       <div className="hero-overlay bg-opacity-40"></div>
@@ -19,16 +19,18 @@ export const Hero = () => {
         <div className="flex gap-10 items-center">
           <div className="flex flex-col max-w-md gap-10">
             <h1 className="mb-5 text-white text-7xl font-bold text-balance">
-              Welcome to Oving Village Hall
+              Dolly Plum Cottage
             </h1>
             <p className="mb-5">
-              Remote and peaceful Hinxhill is the archetypal country church.
-              Almost all dating from the 13th century, the narrow north aisle is
-              a typical give way – designed to be used as a processional space
-              without benches.
+              Dolly Plum Cottage is a detached former agricultural building that
+              has been converted into a delightful 1 bed cottage and is ideally
+              situated to explore the many attractions located in this beautiful
+              part of Kent.
             </p>
           </div>
-          <button className="btn btn-lg m-20 btn-primary">Book</button>
+          <button className="btn btn-lg m-20 btn-primary" src="Availability">
+            Book
+          </button>
         </div>
       </div>
     </div>
