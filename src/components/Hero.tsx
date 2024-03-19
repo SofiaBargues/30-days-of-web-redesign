@@ -11,24 +11,25 @@ export const Hero = () => {
       className="hero h-[700px]"
       style={{
         backgroundImage:
-          "url(https://www.ovingvillagehall.com/uploads/3/0/9/2/30928497/gfd_orig.jpg)",
+          "url(https://media-cdn.tripadvisor.com/media/photo-s/07/7a/a5/fc/great-display-of-colour.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="flex gap-10 items-center">
+        <div className="flex flex-col  gap-10 ">
           <div className="flex flex-col max-w-md gap-10">
-            <h1 className="mb-5 text-white text-7xl font-bold text-balance">
-              Welcome to Oving Village Hall
+            <h1 className="mb-5 text-white text-7xl font-light text-balance">
+              Homely bistro
             </h1>
             <p className="mb-5">
-              Remote and peaceful Hinxhill is the archetypal country church.
-              Almost all dating from the 13th century, the narrow north aisle is
-              a typical give way – designed to be used as a processional space
-              without benches.
+              warm welcome to the Coach House Cafe from Gary and Lisa. We are a
+              family-run bistro with over 20 years' experience. We serve freshly
+              prepared breakfast, lunches, meals, snacks and drinks.
             </p>
           </div>
-          <button className="btn btn-lg m-20 btn-primary">Book</button>
+          <div>
+            <button className="btn btn-sm  btn-primary">Book</button>
+          </div>
         </div>
       </div>
     </div>
