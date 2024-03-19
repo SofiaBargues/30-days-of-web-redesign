@@ -1,7 +1,7 @@
 // import { logo } from "../assets";
 
 export const Amenities = () => (
-  <div className="grid grid-cols-6 m-3 ">
+  <div className="grid grid-cols-6 m-6 ">
     <div className="m-7">
       <div>
         <div>

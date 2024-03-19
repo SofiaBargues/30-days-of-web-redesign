@@ -13,7 +13,7 @@ function App() {
       <main>
         <Hero />
         <Amenities />
-        <Discount />
+        {/* <Discount /> */}
         <Place />
         <Availability />
       </main>
