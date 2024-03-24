@@ -27,7 +27,10 @@ export const Hero = () => {
             </p>
           </div>
           <div className="flex flex-col justify-center mx-96">
-            <button className="btn btn-lg text-white btn-primary ">Book</button>
+            <button className="btn btn-lg text-white btn-primary ">
+              {" "}
+              Crowdfunding{" "}
+            </button>
           </div>
           <h1 className=" font-medium text-3xl flex justify-end align-bottom  text-balance   text-secondary">
             {" "}
