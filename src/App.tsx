@@ -11,8 +11,7 @@ function App() {
     <div>
       <Navbar />
       <main>
-        <HeroCopy />
-        {/* <Hero /> */}
+        <Hero />
         <Tabs />
       </main>
       <Footer />
