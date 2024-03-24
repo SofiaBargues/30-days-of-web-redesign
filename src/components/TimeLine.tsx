@@ -7,6 +7,8 @@ import { TabWorktUs } from "./TabWorktUs";
 
 export const TimeLine = () => (
   <div className="m-10">
+    <h1 className="text-4xl text-right font-bold m-20">Our highlights</h1>
+
     <ul className="timeline text-center text-balance timeline-snap-icon max-sm:timeline-compact timeline-vertical">
       <li>
         <div className="timeline-middle">
@@ -147,12 +149,12 @@ export const TimeLine = () => (
             /> */}
           </svg>
         </div>
-        <div className="timeline-middle md:text-end mb-10 mt-10">
+        <div className="timeline-middle  md:text-center mb-10 mt-10">
           <time className="font-mono italic">2022</time>
           <div className="text-lg font-black">You did it!</div>
           <img
             src="https://pbs.twimg.com/media/FYQC5OwXwAEP4JI?format=jpg&name=small"
-            className="w-full mb-10 rounded-lg shadow-2xl"
+            className="w-full mb-10 rounded-lg  shadow-2xl"
           />
           Update: Following the hugely successful #BackTheBowl crowdfunding
           campaign, which raised over £65,000 thanks to individual pledges of
