@@ -2,7 +2,7 @@
 
 export const Music = () => (
   <>
-    <div className="hero  bg-base-200">
+    <div className="hero  bg-base-content text-white">
       <div className="hero-content flex-col sm:flex-row">
         <iframe
           src="https://open.spotify.com/embed/playlist/4RySonVVEMgGilMarxe7w1?wmode=opaque"
