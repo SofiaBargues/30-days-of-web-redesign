@@ -1,30 +1,28 @@
 // import { logo } from "../assets";
 
 export const About = () => (
-  <div className="overflow-x-auto p-20 ">
-    <h1 className="text-4xl text-right font-bold mx-10">About Us</h1>
-
-    <div className="flex flex-row-reverse m-20 gap-2">
-      <p className="text-md text-start text-balance w-[1000px]">
-        A modern, spacious and multi-functional venue for parties, classes,
-        activity groups, business meetings, presentations, social and corporate
-        events. This modern hall was opened in 2014, constructed of beautiful
-        oak with a vaulted ceiling with the highest quality amenities and great
-        facilities. The hall is well lit with natural light and high-quality
-        fittings. Oving Village Hall is owned by Oving Parish Council, and
-        managed by a Oving Village Hall Trust.
+  <div className="flex flex-col-2 text-center mx-10 gap-32">
+    <div className="flex flex-col gap-2">
+      <h1 className="text-7xl text font-light m-10">Bistro restaurant</h1>
+      <p className="text-xl text-start text-balance ">
+        We pride ourselves on our friendly service and relaxed atmosphere. Our
+        open fire creates a warm and cosy feel in the winter, whilst summer days
+        can be enjoyed outside in our courtyards admiring the stunning grounds.
+        The Coach House Cafe has been given a 5 star Scores On The Doors rating.
+        Our chefs are passionate about the dishes they create and use locally
+        sourced, fresh ingredients for the finest flavours.
       </p>{" "}
-      <div className="bg-neutral h-50 w-[6px]"></div>
     </div>
-    <div className="flex flex-row m-20 gap-2">
-      <p className="text-md text-end text-balance  w-[1000px]">
-        ​For general enquiries please call on 01296 532393, ​or e-mail us at
-        hall@ovingpc.com. For bookings please click here. Online booking is now
-        available. ​ Information about hire charges can be found by clicking
-        here. In the case of emergencies (including public nuisance) please call
-        01296 532393.
+    <div className="flex flex-col gap-2">
+      <h1 className="text-7xl text font-light m-10">Beautiful gardens</h1>
+      <p className="text-xl text-start text-balance ">
+        The Coach House Cafe is set in a converted stable yard within the
+        beautiful grounds of Coombe Wood , which came 1st place in Britain in
+        Bloom in 2009. Coombe Wood is the ideal setting for country walks and
+        the Coach House Cafe welcomes couples and families alike. The Coach
+        House Cafe can accommodate large parties and has a courtyard seating
+        area.
       </p>{" "}
-      <div className="bg-neutral h-50 w-[6px]"></div>
     </div>
   </div>
 );

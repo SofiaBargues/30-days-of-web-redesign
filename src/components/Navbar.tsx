@@ -8,9 +8,6 @@ export const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-3xl font-thin">Coach House Cafes</a>
-      </div>{" "}
-      <div className="navbar-end">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <svg
@@ -46,7 +43,10 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div>{" "}
+      <div className="navbar-end">
+        <a className="btn btn-ghost text-3xl font-thin">Coach House Cafes</a>
+      </div>{" "}
     </div>
   );
 };
