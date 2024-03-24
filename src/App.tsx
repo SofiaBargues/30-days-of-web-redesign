@@ -1,10 +1,11 @@
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { Tabs } from "./components/Tabs";
+import { Tabs, TimeLine } from "./components/TimeLine";
 import { Navbar } from "./components/Navbar";
 import { About } from "./components/About";
 import { Squares } from "./components/Scuares";
 import { HeroCopy } from "./components/HeroCopy";
+import { Music } from "./components/Music";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Tabs />
+        <Music />
+        <Squares />
+        <TimeLine />
+        <About />
       </main>
       <Footer />
     </div>
