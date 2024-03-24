@@ -8,7 +8,7 @@ import { Cards } from "./Card";
 export const Hero = () => {
   return (
     <div
-      className="hero h-[900p] "
+      className="hero h-[750px] "
       style={{
         backgroundImage:
           "url(https://media-cdn.tripadvisor.com/media/photo-s/07/7a/a5/fc/great-display-of-colour.jpg)",

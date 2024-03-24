@@ -3,8 +3,8 @@
 export const About = () => (
   <div className="flex flex-col-2 text-center mx-10 gap-32">
     <div className="flex flex-col gap-2">
-      <h1 className="text-7xl text font-light m-10">Bistro restaurant</h1>
-      <p className="text-xl text-start text-balance ">
+      <h1 className="text-6xl text font-light m-10">Bistro restaurant</h1>
+      <p className="text-xl text-start text-balance  ">
         We pride ourselves on our friendly service and relaxed atmosphere. Our
         open fire creates a warm and cosy feel in the winter, whilst summer days
         can be enjoyed outside in our courtyards admiring the stunning grounds.
@@ -14,7 +14,7 @@ export const About = () => (
       </p>{" "}
     </div>
     <div className="flex flex-col gap-2">
-      <h1 className="text-7xl text font-light m-10">Beautiful gardens</h1>
+      <h1 className="text-6xl text font-light m-10">Beautiful gardens</h1>
       <p className="text-xl text-start text-balance ">
         The Coach House Cafe is set in a converted stable yard within the
         beautiful grounds of Coombe Wood , which came 1st place in Britain in
