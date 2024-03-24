@@ -8,7 +8,7 @@ import { Cards } from "./Card";
 export const Hero = () => {
   return (
     <div
-      className="hero h-[750px] "
+      className="hero "
       style={{
         backgroundImage:
           "url(https://media-cdn.tripadvisor.com/media/photo-s/07/7a/a5/fc/great-display-of-colour.jpg)",
@@ -16,7 +16,7 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content mx-20 text-neutral-content">
-        <div className="flex flex-col  gap-10 w-screen ">
+        <div className="flex flex-col  gap-10  ">
           <div className="flex flex-col max-w-md gap-10">
             <h1 className="mb-5 text-white text-7xl font-light text-balance">
               Homely bistro
