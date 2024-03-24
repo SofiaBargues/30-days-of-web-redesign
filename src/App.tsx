@@ -1,6 +1,6 @@
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { Map } from "./components/Map";
+import { Tabs } from "./components/Tabs";
 import { Navbar } from "./components/Navbar";
 import { About } from "./components/About";
 import { Squares } from "./components/Scuares";
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        {/* <Map /> */}
+        <Tabs />
         <Squares />
       </main>
       <Footer />

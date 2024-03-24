@@ -1,9 +1,19 @@
 // import { logo } from "../assets";
 
-export const Map = () => (
-  <div className=" p-20">
-    <h1 className="text-4xl text-right font-bold mx-10">Where find us?</h1>
-    <div className="">
+export const TabDos = () => (
+  <>
+    <input
+      type="radio"
+      name="my_tabs_2"
+      role="tab"
+      className="tab"
+      aria-label="Tab 2"
+      checked
+    />
+    <div
+      role="tabpanel"
+      className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+    >
       <div className="bg-white  mt-10 border rounded-2xl border-base-300 m-5">
         <div className=" p-8 flex flex-col gap-10 shadow-2xl rounded-2xl">
           <div className="mockup-window border border-base-300 m-20m-20 flex justify-center border-t"></div>
@@ -18,5 +28,5 @@ export const Map = () => (
         </div>
       </div>
     </div>
-  </div>
+  </>
 );

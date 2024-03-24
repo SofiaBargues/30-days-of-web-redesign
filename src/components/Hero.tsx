@@ -8,10 +8,10 @@ import { Cards } from "./Card";
 export const Hero = () => {
   return (
     <div
-      className="hero h-[750px] "
+      className="hero h-screen "
       style={{
         backgroundImage:
-          "url(https://media-cdn.tripadvisor.com/media/photo-s/07/7a/a5/fc/great-display-of-colour.jpg)",
+          "url(https://www.jigsaw-arts.co.uk/wp-content/uploads/Jigsaw-Performing-Arts-14th-November-2021-%C2%A9-Brendan-Foster-Photography-17-11.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-40"></div>
