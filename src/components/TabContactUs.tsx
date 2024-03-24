@@ -12,16 +12,9 @@ export const TabContactUs = () => (
 
     <div
       role="tabpanel"
-      className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+      className="tab-content items-center bg-base-100 border-base-300 rounded-box p-6"
     >
-      <form
-        action="/performing-arts-school/mitcham/#wpcf7-f5-p967-o2"
-        method="post"
-        className="wpcf7-form init"
-        aria-label="Contact form"
-        noValidate="novalidate"
-        data-status="init"
-      >
+      <form className="flex justify-center ">
         <div style={{ display: "none" }}>
           <input type="hidden" name="_wpcf7" defaultValue={5} />
           <input type="hidden" name="_wpcf7_version" defaultValue="5.8.7" />
@@ -136,13 +129,13 @@ export const TabContactUs = () => (
               </div>
             </div>
           </div>
-          <div className="container">
+          <div className=" w-40">
             <div className="row">
               <div className="col-md-12">
                 <p>
                   <span className="wpcf7-form-control-wrap" data-name="message">
                     <textarea
-                      cols={40}
+                      cols={42}
                       rows={10}
                       className="wpcf7-form-control wpcf7-textarea"
                       aria-invalid="false"
@@ -156,11 +149,9 @@ export const TabContactUs = () => (
             </div>
           </div>
           <p className="text-center">
-            <input
-              className="wpcf7-form-control wpcf7-submit has-spinner"
-              type="submit"
-              defaultValue="Send"
-            />
+            <btn className="btn btn-primary" type="submit">
+              Submit
+            </btn>
             <span className="wpcf7-spinner" />
           </p>
         </div>
