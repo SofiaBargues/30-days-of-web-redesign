@@ -12,9 +12,9 @@ export const TabContactUs = () => (
 
     <div
       role="tabpanel"
-      className="tab-content items-center bg-base-100 border-base-300 rounded-box p-6"
+      className="tab-content bg-base-100 border-base-300 rounded-box p-60"
     >
-      <form className="flex justify-center ">
+      <form className="flex justify-center m-0">
         <div style={{ display: "none" }}>
           <input type="hidden" name="_wpcf7" defaultValue={5} />
           <input type="hidden" name="_wpcf7_version" defaultValue="5.8.7" />
