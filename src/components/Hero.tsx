@@ -16,9 +16,11 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content mx-20 text-neutral-content">
-        <div className="flex flex-col mt-20 w-screen gap-10 ">
-          <h1 className=" text-white text-7xl  text-balance">JIGSAW</h1>
-          <h1 className=" text-white text-3xl  text-balance">
+        <div className="flex flex-col mt-20 w-screen gap-5 ">
+          <h1 className=" text-white text-7xl mt-10 font-bold text-balance">
+            JIGSAW
+          </h1>
+          <h1 className=" font-medium text-3xl  text-balance   text-secondary">
             Mitcham & Morden
           </h1>
           <div className="flex flex-col max-w-md">

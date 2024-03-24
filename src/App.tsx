@@ -12,8 +12,6 @@ function App() {
       <main>
         <Hero />
         <Tabs />
-        <About />
-        <Squares />
       </main>
       <Footer />
     </div>

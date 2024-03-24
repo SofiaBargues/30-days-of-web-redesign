@@ -6,7 +6,7 @@ export const TabWorktUs = () => (
       type="radio"
       name="my_tabs_2"
       role="tab"
-      className="tab"
+      className="tab tabs-lg text-xs w-24"
       aria-label="Work With Us"
     />
     <div

@@ -6,9 +6,10 @@ export const WeekendScools = () => (
       type="radio"
       name="my_tabs_2"
       role="tab"
-      className="tab"
-      aria-label="Tab 1"
+      className="tab tabs-lg text-xs"
+      aria-label="Weekend Scools"
     />
+
     <div
       role="tabpanel"
       className="tab-content bg-base-100 border-base-300 rounded-box p-20"
