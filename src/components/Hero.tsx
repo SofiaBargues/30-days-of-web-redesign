@@ -18,7 +18,7 @@ export const Hero = () => {
       <div className="hero-content text-neutral-content">
         <div className="flex flex-col m-w-screen h-screen justify-around   ">
           <div>
-            <h1 className=" text-white text-7xl mt-32 font-bold flex justify-center  text-balance">
+            <h1 className=" text-white text-7xl mt-60 font-bold flex justify-center  text-balance">
               Crystal Palace Bowl
             </h1>
             <div className="flex flex-col justify-center m-20">
