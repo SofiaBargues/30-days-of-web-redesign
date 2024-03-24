@@ -7,7 +7,7 @@ export const TabContactUs = () => (
       name="my_tabs_2"
       role="tab"
       className="tab"
-      aria-label="Tab 3"
+      aria-label="Contact Us"
     />
     <div
       role="tabpanel"

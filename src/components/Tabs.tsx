@@ -1,8 +1,8 @@
 // import { logo } from "../assets";
 
 import { TabContactUs } from "./TabContactUs";
-import { TabDos } from "./TabDos";
-import { TabUno } from "./TabUno";
+import { News } from "./News";
+import { WeekendScools } from "./WeekendScools";
 import { TabWorktUs } from "./TabWorktUs";
 
 export const Tabs = () => (
@@ -10,8 +10,8 @@ export const Tabs = () => (
     <h1 className="text-4xl text-right font-bold mx-10">Where find us?</h1>
     <div className="">
       <div role="tablist" className="tabs tabs-lifted">
-        <TabUno />
-        <TabDos />
+        <WeekendScools />
+        <News />
         <TabContactUs />
         <TabWorktUs />
       </div>
