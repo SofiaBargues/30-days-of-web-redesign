@@ -1,8 +1,9 @@
 // import { logo } from "../assets";
 
-import { TabTres } from "./TabTres";
+import { TabContactUs } from "./TabContactUs";
 import { TabDos } from "./TabDos";
 import { TabUno } from "./TabUno";
+import { TabWorktUs } from "./TabWorktUs";
 
 export const Tabs = () => (
   <div className=" p-20">
@@ -11,7 +12,8 @@ export const Tabs = () => (
       <div role="tablist" className="tabs tabs-lifted">
         <TabUno />
         <TabDos />
-        <TabTres />
+        <TabContactUs />
+        <TabWorktUs />
       </div>
     </div>
   </div>

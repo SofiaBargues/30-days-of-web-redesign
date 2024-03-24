@@ -1,6 +1,6 @@
 // import { logo } from "../assets";
 
-export const TabTres = () => (
+export const TabContactUs = () => (
   <>
     <input
       type="radio"

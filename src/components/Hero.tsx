@@ -16,19 +16,24 @@ export const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content mx-20 text-neutral-content">
-        <div className="flex flex-col  gap-10 w-screen ">
-          <div className="flex flex-col max-w-md gap-10">
-            <h1 className="mb-5 text-white text-7xl font-light text-balance">
-              Homely bistro
-            </h1>
-            <p className="mb-5 text-2xl ">
-              warm welcome to the Coach House Cafe from Gary and Lisa. We are a
-              family-run bistro with over 20 years' experience. We serve freshly
-              prepared breakfast, lunches, meals, snacks and drinks.
+        <div className="flex flex-col mt-20 w-screen gap-10 ">
+          <h1 className=" text-white text-7xl  text-balance">JIGSAW</h1>
+          <h1 className=" text-white text-3xl  text-balance">
+            Mitcham & Morden
+          </h1>
+          <div className="flex flex-col max-w-md">
+            <p className=" text-2xl  text-left text-neutral-400 w-80">
+              Jigsaw Performing Arts Schools offer weekend drama, singing and
+              dance classes for children aged 3-18 across London, the Home
+              Counties, in Cardiff and Oxford. Our classes are an excellent way
+              to build confidence and social skills and are a huge amount of
+              fun. With three terms throughout the year: spring, summer and
+              autumn, there are plenty of opportunities for students to take to
+              the stage with us.
             </p>
           </div>
           <div>
-            <button className="btn btn-lg  btn-secondary">Book</button>
+            <button className="btn btn-lg text-white btn-primary">Book</button>
           </div>
         </div>
       </div>
