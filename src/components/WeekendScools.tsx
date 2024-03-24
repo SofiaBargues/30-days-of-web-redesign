@@ -7,7 +7,7 @@ export const WeekendScools = () => (
       name="my_tabs_2"
       role="tab"
       className="tab tabs-lg text-xs"
-      aria-label="Weekend Scools"
+      aria-label="Scools"
     />
 
     <div
