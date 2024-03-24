@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { Squares } from "./components/Scuares";
 import { HeroCopy } from "./components/HeroCopy";
 import { Music } from "./components/Music";
+import { Map } from "./components/Map";
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <main>
         <Hero />
         <Music />
-        <Squares />
         <TimeLine />
-        <About />
+        <Map />
+        {/* <About /> */}
       </main>
       <Footer />
     </div>

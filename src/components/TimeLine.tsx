@@ -7,7 +7,7 @@ import { TabWorktUs } from "./TabWorktUs";
 
 export const TimeLine = () => (
   <div className="m-10">
-    <ul className="timeline timeline-snap-icon max-sm:timeline-compact timeline-vertical">
+    <ul className="timeline text-center text-balance timeline-snap-icon max-sm:timeline-compact timeline-vertical">
       <li>
         <div className="timeline-middle">
           <svg
@@ -24,14 +24,110 @@ export const TimeLine = () => (
           </svg>
         </div>
         <div className="timeline-start md:text-end mb-10">
+          <time className="font-mono italic">The Stage Magazine</time>
+          <div className="text-lg font-black">
+            “A sleeping giant among the capital’s open air venues”
+          </div>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5e53fd130b5d7822b0c250a5/1599472886674-VA8SOMD7TGY31SWD7ML2/CNV00026.jpg?format=1000w"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />
+          <time className="font-mono text-xs flex italic">
+            Image © Pete Still
+          </time>
+
+          <div></div>
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div className="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="h-5 w-5"
+          >
+            <path
+              fillRule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </div>
+        <div className="timeline-end mb-10">
+          <time className="font-mono italic">Rick Wakeman, Musician</time>
+          <div className="text-lg font-black">
+            “The best outdoor venue in London, magical. It was special back then
+            and could be even more special now”
+          </div>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5e53fd130b5d7822b0c250a5/1599474308377-MMGK4DNNSWO2R1L4NOPQ/CP+Bowl+1+%28%C2%A9+Dennis+Gilbert+1997%29.JPG?format=1000w"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />{" "}
+          <time className="font-mono text-xs flex italic">
+            Image © Dennis Gilbert
+          </time>
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div className="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="h-5 w-5"
+          >
+            <path
+              fillRule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </div>
+        <div className="timeline-start md:text-end mb-10">
+          <time className="font-mono italic">1971</time>
+          <div className="text-lg font-black">Rod Stewart and The Faces</div>
+          <img
+            src="https://storage.googleapis.com/cdn.thelondoneconomic.com/wp-content/uploads/2021/05/ef936f8e-1971-rod-stewart-and-the-faces-at-crystal-palace-bowl-image_-michael-putland.jpeg"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />
+          <time className="font-mono text-xs flex italic">
+            Image © Michael Putland
+          </time>
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div className="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="h-5 w-5"
+          >
+            <path
+              fillRule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </div>
+        <div className="timeline-end mb-10">
           <time className="font-mono italic">1984</time>
-          <div className="text-lg font-black">First Macintosh computer</div>
-          The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-          original Apple Macintosh personal computer. It played a pivotal role
-          in establishing desktop publishing as a general office function. The
-          motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were
-          housed in a beige case with integrated carrying handle; it came with a
-          keyboard and single-button mouse.
+          <div className="text-lg font-black">Jimmy Cliff</div>
+          <img
+            src="https://static.standard.co.uk/2021/02/22/12/newFile-3.jpg?crop=8:5,smart&quality=75&auto=webp&width=640"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />
+
+          <time className="font-mono text-xs flex italic">
+            Image © Masataka Ishida
+          </time>
         </div>
         <hr />
       </li>
@@ -44,104 +140,27 @@ export const TimeLine = () => (
             fill="currentColor"
             className="h-5 w-5"
           >
-            <path
+            {/* <path
               fillRule="evenodd"
               d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
               clipRule="evenodd"
-            />
+            /> */}
           </svg>
         </div>
-        <div className="timeline-end mb-10">
-          <time className="font-mono italic">1998</time>
-          <div className="text-lg font-black">iMac</div>
-          iMac is a family of all-in-one Mac desktop computers designed and
-          built by Apple Inc. It has been the primary part of Apple's consumer
-          desktop offerings since its debut in August 1998, and has evolved
-          through seven distinct forms
-        </div>
-        <hr />
-      </li>
-      <li>
-        <hr />
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div className="timeline-start md:text-end mb-10">
-          <time className="font-mono italic">2001</time>
-          <div className="text-lg font-black">iPod</div>
-          The iPod is a discontinued series of portable media players and
-          multi-purpose mobile devices designed and marketed by Apple Inc. The
-          first version was released on October 23, 2001, about 8+1⁄2 months
-          after the Macintosh version of iTunes was released. Apple sold an
-          estimated 450 million iPod products as of 2022. Apple discontinued the
-          iPod product line on May 10, 2022. At over 20 years, the iPod brand is
-          the oldest to be discontinued by Apple
-        </div>
-        <hr />
-      </li>
-      <li>
-        <hr />
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div className="timeline-end mb-10">
-          <time className="font-mono italic">2007</time>
-          <div className="text-lg font-black">iPhone</div>
-          iPhone is a line of smartphones produced by Apple Inc. that use
-          Apple's own iOS mobile operating system. The first-generation iPhone
-          was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since
-          then, Apple has annually released new iPhone models and iOS updates.
-          As of November 1, 2018, more than 2.2 billion iPhones had been sold.
-          As of 2022, the iPhone accounts for 15.6% of global smartphone market
-          share
-        </div>
-        <hr />
-      </li>
-      <li>
-        <hr />
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div className="timeline-start md:text-end mb-10">
-          <time className="font-mono italic">2015</time>
-          <div className="text-lg font-black">Apple Watch</div>
-          The Apple Watch is a line of smartwatches produced by Apple Inc. It
-          incorporates fitness tracking, health-oriented capabilities, and
-          wireless telecommunication, and integrates with iOS and other Apple
-          products and services
+        <div className="timeline-middle md:text-end mb-10 mt-10">
+          <time className="font-mono italic">2022</time>
+          <div className="text-lg font-black">You did it!</div>
+          <img
+            src="https://pbs.twimg.com/media/FYQC5OwXwAEP4JI?format=jpg&name=small"
+            className="w-full mb-10 rounded-lg shadow-2xl"
+          />
+          Update: Following the hugely successful #BackTheBowl crowdfunding
+          campaign, which raised over £65,000 thanks to individual pledges of
+          more than 1,000 people and the generous support of the Mayor of
+          London, the new stage surface was installed in July 2022. This marks
+          the end of the first phase of our project to revive Crystal Palace
+          Bowl, with the next phase aiming to modernise the backstage area and
+          improve access to the venue.
         </div>
       </li>
     </ul>
