@@ -14,7 +14,7 @@ export const News = () => (
       className="tab-content bg-base-100 border-base-300 rounded-box p-6"
     >
       <div>
-        <div className=" rounded-2xl grid grid-cols-3 ">
+        <div className=" rounded-2xl grid items-center text-center font-bold grid-cols-3  ">
           <div className="m-6">
             <div className="m-6">
               <div className="am-thumbnail-container">
@@ -63,14 +63,6 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Monday 29th July – Friday 2nd August 2024 Ages 3-5 Years – £80
-                  for the Week (£70 for siblings) 9:30am-11:30am Ages 5-16 years
-                  – £175 for the Week (£150 for siblings) 9am-3:30pm Free wrap
-                  around care from 8:30am-9am and 3:30pm-4pm! Jigsaw Performing
-                  Arts School Stevenage welcomes you to their Summer Camp 2024!
-                  A week packed […]
-                </p>
                 <p />
               </div>
             </div>
@@ -118,15 +110,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Who remembers their first day at Jigsaw? For some of our
-                  youngest members they may not remember their first ever
-                  session at Jigsaw, but there are some students whose first
-                  days we never forget!&nbsp;Lyric-Louise joined Jigsaw Arts
-                  Ilford in 2020 when she was just 3 years&nbsp;old.&nbsp;School
-                  Manager Megan remembers Lyric’s first day vividly! Lyric was
-                  […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -171,14 +155,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Running for a Cause: Jigsaw Performing Arts Hitchin and
-                  Sevenoaks Manager Shaun is taking on the London Marathon for
-                  Children with Cancer UK! As the manager of Jigsaw Arts Hitchin
-                  and Jigsaw Arts Sevenoaks, I believe in using our time, effort
-                  and skills not only to enrich the lives of children through
-                  performing arts but […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -226,14 +203,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Make friends and discover new interests in a nurturing and
-                  creative environment – Jigsaw Hemel-Hempstead‘s Summer Holiday
-                  camp is back with another week of theatrical fun! Create a
-                  show in a week! 29th July – 2nd August 2024 at The Adeyfield
-                  Academy We are thrilled to announce that bookings for the
-                  Jigsaw Hemel-Hempstead Summer Holiday […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -283,13 +253,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Ahead of their certificate presentation, Amy sat down with
-                  some Group 3 students at Jigsaw Crouch End to find out what
-                  Jigsaw means to them.. Amy: You’ve all been coming to Jigsaw
-                  Crouch End for a really long time! Jasper – you’ve been here
-                  13 years! But can you all remember your first day at […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -338,13 +302,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  As the year begins to draw to a close, many of us are starting
-                  to set out some goals for 2024. Is finding a new career in
-                  2024 on your list of goals? Perhaps to something more creative
-                  or rewarding…. Jigsaw Arts are offering the opportunity to run
-                  your own Jigsaw Performing Arts school for […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -400,14 +358,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Rachel, owner and manager of Jigsaw Performing Arts Broxbourne
-                  answers some of your frequently asked questions about the
-                  Little Ones Classes at Jigsaw Arts. As the Manager and
-                  Franchisee of three Jigsaw Schools, it goes without saying
-                  that I wholeheartedly believe in the benefits of performing
-                  arts classes, and how it can aid student growth […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -455,13 +406,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Introducing Jake and Jason from Abstract Kids Drama! Hey, so
-                  my name’s Jason, or Mr. Jason to some! I first attended Jigsaw
-                  when I was around 15. This began as I was lucky enough to
-                  receive a scholarship through my school. I always did very
-                  well in drama, but going to a drama school wasn’t […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -510,13 +455,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Our Jigsaw founder, Nicola Lander, shares her story: &nbsp; I
-                  started like you, with a passion for performing arts, a belief
-                  in the benefits and a desire to pass it on to as many young
-                  people as possible. I love seeing that once shy child progress
-                  in confidence and take on a big role in […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -562,14 +501,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Our Franchisee Becky from Jigsaw Oxford shares 5 simple and
-                  effective mindfulness techniques to help children’s wellbeing
-                  &nbsp; We can’t deny that it’s been an eventful few years. And
-                  if we adults are feeling the stress then we can guess that the
-                  children around us are feeling it too in their own way. We may
-                  […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -622,14 +554,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  What is a Technique Term at Jigsaw Arts? &nbsp; A year at
-                  Jigsaw Arts is split into three terms. Technique Term,
-                  Presentation Term and Show Term. Our Technique Term allows our
-                  Students to solely focus on exploring their abilities in each
-                  subject, step out of their comfort zone, and gain confidence
-                  in new areas of […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -683,14 +608,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  Melusine and Elena, now 17, met and became friends at Jigsaw
-                  Performing Arts School in Barnet.&nbsp; After 13 years of
-                  dance, drama and singing classes on Saturday afternoons, it is
-                  time for them to move on but also reflect on the last 13 years
-                  and what they have learnt at Jigsaw.&nbsp; Both have really
-                  progressed […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -737,13 +655,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  There are so many reasons why dancing is good for you, it’s
-                  hard to know where to begin! It’s great fun and good for the
-                  physical and mental health! Besides being a good form of
-                  exercise and having a truly positive impact on our health, a
-                  recent study actually showed that it also makes us […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -790,14 +702,7 @@ export const News = () => (
                   </a>
                 </h5>
                 <p />
-                <p>
-                  10 Creative Self-Care Activities Here we are, in 2021, back in
-                  a lockdown that everyone hoped we wouldn’t have to contend
-                  with. Whilst we are all keeping safe at home, it is important
-                  to remember to promote positive mental health and ways in
-                  which to keep ourselves and our children positive. It has been
-                  a […]
-                </p>
+
                 <p />
               </div>
             </div>
@@ -844,13 +749,7 @@ export const News = () => (
                 </a>
               </h5>
               <p />
-              <p>
-                Where Will Your Path Take You? &nbsp; We are proud to promote
-                our ethos of ‘A Place To Belong’ and strongly believe in the
-                importance of creating an environment where our students feel
-                free to express who they are and confident enough to explore
-                what they want to become. While some join Jigsaw Arts to […]
-              </p>
+
               <p />
             </div>
           </div>
