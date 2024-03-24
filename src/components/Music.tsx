@@ -6,20 +6,18 @@ export const Music = () => (
       <div className="hero-content flex-col sm:flex-row">
         <iframe
           src="https://open.spotify.com/embed/playlist/4RySonVVEMgGilMarxe7w1?wmode=opaque"
-          className="w-full h-96  rounded-3xl"
+          className=" h-96 m-10  rounded-3xl"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
+          <h1 className="text-5xl font-bold">Live, from the Palace!</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Check out our Spotify playlist, with highlights, hits and deep-cuts
+            from over half a century of live music at Crystal Palace.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>
