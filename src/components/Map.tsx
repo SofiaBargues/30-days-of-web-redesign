@@ -1,7 +1,7 @@
 export const Map = () => {
   return (
     <div className="bg-yellow-400 p-20">
-      <h1 className="text-4xl text-right font-bold m-10 text-white">
+      <h1 className="text-6xl text-right font-bold m-10 text-white">
         Where find us?
       </h1>
       <div className="">

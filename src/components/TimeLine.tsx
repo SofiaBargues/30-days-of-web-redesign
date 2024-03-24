@@ -7,7 +7,9 @@ import { TabWorktUs } from "./TabWorktUs";
 
 export const TimeLine = () => (
   <div className="m-10">
-    <h1 className="text-4xl text-right font-bold m-20">Our highlights</h1>
+    <h1 className="text-6xl text-yellow-400  text-right font-bold m-20">
+      Our highlights
+    </h1>
 
     <ul className="timeline text-center text-balance timeline-snap-icon max-sm:timeline-compact timeline-vertical">
       <li>
