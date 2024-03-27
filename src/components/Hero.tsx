@@ -11,7 +11,7 @@ export const Hero = () => {
       className="hero"
       style={{
         backgroundImage:
-          "url(https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/295347821_932703234779813_3682614714142714646_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dxJfM5g2GMoAX_EA5j6&_nc_ht=scontent-lhr6-2.xx&oh=00_AfCJNGV7SwS_IipC7nPp64BQjvrPwlqYxDuug14_fq7SEQ&oe=66043BC9)",
+          "url(https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/295347821_932703234779813_3682614714142714646_n.jpg?stp=dst-jpg_s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5ICRe13CZ10AX823T9u&_nc_ht=scontent-lhr6-2.xx&oh=00_AfCOsR0Dzs6WADnc6n8LLcSk_C4BFpFn5V0v4rIr4ysh5w&oe=660A2A89)",
       }}
     >
       <div className="hero-overlay bg-opacity-40"></div>
