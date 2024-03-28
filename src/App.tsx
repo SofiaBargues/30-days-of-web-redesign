@@ -15,7 +15,6 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Music />
         <Squares />
         <TimeLine />
         <Map />

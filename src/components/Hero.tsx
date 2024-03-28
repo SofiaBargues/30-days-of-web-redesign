@@ -28,13 +28,15 @@ export const Hero = () => {
             </div>
           </label>
           <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <p className="py-6">
+            <h1 className="text-7xl font-bold text-white">Box Office News!</h1>
+            <p className="py-6 text-white max-w-xl">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-secondary text-white">
+              Get Started
+            </button>
           </div>
         </div>
       </div>
