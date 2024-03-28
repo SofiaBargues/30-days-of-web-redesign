@@ -8,7 +8,7 @@ import { Cards } from "./Card";
 export const Hero = () => {
   return (
     <div className=" bg-[#ffd500] ">
-      <div className="hero min-h-screen bg-[#ffd500] ">
+      <div className="hero min-h-xl bg-[#ffd500] ">
         <div className="hero-content flex-col lg:flex-row">
           <label className="swap">
             <input type="checkbox" className="hidden" />

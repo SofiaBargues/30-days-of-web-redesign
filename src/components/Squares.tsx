@@ -1,6 +1,12 @@
 export const Squares = () => (
   <section>
-    <div className="h-400 py-10 px-6 bg-white">
+    <div
+      className="h-400 py-10 px-6 bg-white "
+      style={{
+        backgroundImage:
+          "url(https://static.wixstatic.com/media/59d2f4_339bbbafa0a74c83a673f07ddae4557e~mv2.png/v1/fill/w_980,h_451,al_c,q_90,enc_auto/59d2f4_339bbbafa0a74c83a673f07ddae4557e~mv2.png)",
+      }}
+    >
       <div className="grid grid-cols-5  gap-4">
         <img
           src="https://static.wixstatic.com/media/29f523_31c4b301eef44450a2bb552944c3cc65~mv2.png/v1/fill/w_261,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/29f523_31c4b301eef44450a2bb552944c3cc65~mv2.png"

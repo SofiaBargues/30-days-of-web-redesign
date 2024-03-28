@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Squares />
         <Testimonials />
+        <Squares />
         <TimeLine />
         <Map />
       </main>
