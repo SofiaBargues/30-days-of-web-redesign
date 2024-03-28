@@ -2,24 +2,21 @@
 
 export const Music = () => (
   <>
-    <div className="hero  bg-base-content text-white">
-      <div className="hero-content flex-col sm:flex-row">
-        <iframe
-          src="https://open.spotify.com/embed/playlist/4RySonVVEMgGilMarxe7w1?wmode=opaque"
-          className=" h-96 m-10  rounded-3xl"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-        <div>
-          <h1 className="text-5xl font-bold">Live, from the Palace!</h1>
-          <p className="py-6">
-            Check out our Spotify playlist, with highlights, hits and deep-cuts
-            from over half a century of live music at Crystal Palace.
-          </p>
-        </div>
-      </div>
-    </div>
+    <blockquote className="twitter-tweet" data-media-max-width={560}>
+      <p lang="es" dir="ltr">
+        me ayudan con un RT a hacerle llegar este jingle a ⁦
+        <a href="https://twitter.com/nhbasilotta?ref_src=twsrc%5Etfw">
+          @nhbasilotta
+        </a>
+        ⁩ ? <br />
+        <br />
+        me encantaria cantarlo en la fabrica de Guaymallen, caviar!!{" "}
+        <a href="https://t.co/GAAev0Xmid">pic.twitter.com/GAAev0Xmid</a>
+      </p>
+      — Palmito (@palmitomusica){" "}
+      <a href="https://twitter.com/palmitomusica/status/1767600235189092392?ref_src=twsrc%5Etfw">
+        March 12, 2024
+      </a>
+    </blockquote>
   </>
 );
