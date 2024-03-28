@@ -2,12 +2,9 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { TimeLine } from "./components/TimeLine";
 import { Navbar } from "./components/Navbar";
-import { About } from "./components/About";
 import { Squares } from "./components/Squares";
-import { HeroCopy } from "./components/HeroCopy";
-import { Music } from "./components/Music";
 import { Map } from "./components/Map";
-import { Grid } from "./components/Grid";
+import { Testimonials } from "./components/Testimonials";
 
 function App() {
   return (
@@ -16,6 +13,7 @@ function App() {
       <main>
         <Hero />
         <Squares />
+        <Testimonials />
         <TimeLine />
         <Map />
       </main>

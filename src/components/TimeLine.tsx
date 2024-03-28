@@ -1,7 +1,7 @@
 // import { logo } from "../assets";
 
-import { TabContactUs } from "./TabContactUs";
-import { News } from "./Music";
+import { TabContactUs } from "./Testimonials";
+import { News } from "./Poduct";
 import { WeekendScools } from "./WeekendScools";
 import { TabWorktUs } from "./TabWorktUs";
 
