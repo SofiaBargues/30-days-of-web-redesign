@@ -3,8 +3,9 @@ import { Hero } from "./components/Hero";
 import { TimeLine } from "./components/TimeLine";
 import { Navbar } from "./components/Navbar";
 import { Squares } from "./components/Squares";
-import { Map } from "./components/Map";
+import { Contacto, Map } from "./components/Contacto";
 import { Testimonials } from "./components/Testimonials";
+import { Poduct } from "./components/Poduct";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Testimonials />
         <Squares />
-        <TimeLine />
-        <Map />
+        <Testimonials />
+        {/* <TimeLine /> */}
+        {/* <Poduct /> */}
+
+        {/* <Contacto /> */}
       </main>
       <Footer />
     </div>

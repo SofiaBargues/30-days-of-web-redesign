@@ -7,18 +7,18 @@ export const Squares = () => (
           "url(https://static.wixstatic.com/media/59d2f4_339bbbafa0a74c83a673f07ddae4557e~mv2.png/v1/fill/w_980,h_451,al_c,q_90,enc_auto/59d2f4_339bbbafa0a74c83a673f07ddae4557e~mv2.png)",
       }}
     >
-      <div className="grid grid-cols-5  gap-4">
+      <div className="grid grid-cols-5 gap-4">
         <img
           src="https://static.wixstatic.com/media/29f523_31c4b301eef44450a2bb552944c3cc65~mv2.png/v1/fill/w_261,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/29f523_31c4b301eef44450a2bb552944c3cc65~mv2.png"
-          className=""
+          className="py-8"
         />
         <img
           src="https://static.wixstatic.com/media/29f523_6d76f0e9fee949029ebd0248d046f611~mv2.png/v1/fill/w_261,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/29f523_6d76f0e9fee949029ebd0248d046f611~mv2.png"
-          className=""
+          className="py-8"
         />
         <img
           src="https://static.wixstatic.com/media/29f523_e6bd31bae4c44079ac3afd82ce392a9f~mv2.png/v1/fill/w_261,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/29f523_e6bd31bae4c44079ac3afd82ce392a9f~mv2.png"
-          className=""
+          className="py-8"
         />
 
         <img

@@ -2,7 +2,7 @@
 import { navLinks } from "../constants/data";
 
 export const Footer = () => (
-  <footer className="footer p-10 bg-base-content  justify-around text-center text-white">
+  <footer className="footer mt-32 p-10 bg-[#ffd500] text-xl font-bold justify-around text-center text-white">
     <nav>
       <h6 className="footer-title">Services</h6>
       <a className="link link-hover">Branding</a>
