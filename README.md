@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# 30 Days of Web Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This repository contains my personal challenge of redesigning 30 websites in 30 days. Starting from a base template, I've been building new branches and customizing each of the 30 web redesigns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objective
 
-## Expanding the ESLint configuration
+The main goal of this project is to practice and improve my web development skills, focusing on the use of different components and design techniques. Each day, I faced the challenge of redesigning a different webpage, working against the clock to complete the daily project.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Repository Structure
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- The main branch (`main`) contains the base template.
+- Each redesign has its own branch, named according to the day and project (e.g., `day-1-landing-page`, `day-2-blog`, etc.).
