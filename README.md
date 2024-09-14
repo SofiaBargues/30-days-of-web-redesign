@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# 30 Website Redesigns
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains 30 website redesigns for various web pages. Starting from a basic template, each design was customized and improved upon. The project was completed over the course of one month, focusing on creating new websites for local businesses using React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## Expanding the ESLint configuration
+- Each redesign is stored in a separate branch
+- The main branch contains the base template
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Collaboration
 
-- Configure the top-level `parserOptions` property like this:
+One of the websites was developed in collaboration with a remote designer:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Used Figma for design handoff
+- Transformed the designer's vision into a functional website
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Git (for version control)
+- Figma (for collaborative design work)
+
+![alt text](public/image.png)
