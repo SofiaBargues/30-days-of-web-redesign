@@ -23,4 +23,4 @@ One of the websites was developed in collaboration with a remote designer:
 - Git (for version control)
 - Figma (for collaborative design work)
 
-![alt text](public/image.png)
+![chrome_eboEzysNbm](https://github.com/user-attachments/assets/00f8c81e-2d6d-4672-8246-c790bd133397)
